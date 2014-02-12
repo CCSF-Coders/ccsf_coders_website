@@ -1,0 +1,189 @@
+	
+
+
+	body, h1, h2, h3, p, img, ul, li{
+		border:0; margin:0; padding:0;
+	}
+		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
+		are reset and can now be set to whatever properties that would suit your website best. */
+	
+	body{
+		background:#FFFFFF;	/* a light blue background color. */
+		font-family:Arial, Helvetica, sans-serif; /* the font family for all text on the web page is now either arial, helvetica or a sans-serif font if those two are not available */
+		font-size:13px; /* all normal text on the web page has a base font size of 14px now */
+	}
+	
+	a, a:visited {
+	  color: #445e64;
+	}
+	
+	p{
+		letter-spacing:.04em; /* letter spacing sets the horizontal spacing (kerning) between letters in a block of text. */
+		line-height:25px; /* line height sets the vertical spacing between lines of text. */
+	}
+		
+	div#header{
+		background-color:#3e3e3e;
+		background-image:url('images/header_bg.jpg');
+		background-repeat:repeat-x; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
+		background-position:left bottom;/* sets a background image position */
+		color:#fff;	/* sets the the color of all header text to white */
+		-webkit-border-bottom-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;	/* these 6 lines of border-radius code make rounded corners for the bottom work in firefox, safari, chrome, opera and IE9 */
+		margin:0 auto; /* by declaring a width on any block element (like a div), giving it a css property of margin:0 auto will center that block element on page */
+		margin-top: 10px;
+		min-height:130px;	/* setting a minimum height of an element means that it can grow to be bigger, if there is a lot of content in it. However, if it doesn't have enough content, it will be at the very least (in this example) 130 pixels tall */
+		padding:45px 15px 15px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
+		width:870px;	/* sets the width of the div to 900px. Remember that if you add padding to this element it will increase the size by the number of pixels in the padding. In this example the width is 900px and we have 15px to the left and right so the total width of the header will be (870px + 15px+15px=930px */
+		
+	}
+	#subhead1{
+		color: #ff0000;
+		font-size: 60px;
+		font-weight: bold;
+	}
+	#subhead2{
+		font-size: 20px;
+		padding-left: 20px;
+	}
+	
+	#ccsf_logo{
+		margin-left: 35px;
+	}
+	div.content{
+		margin:15px auto; /* this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
+		width:900px;
+	}
+	
+	div.sidebar-left{
+		float:left;
+		padding:0 10px;
+		width:225px;
+	}
+	
+	div.col-mid{
+		float:left;
+		width:450px;
+		margin: auto;
+	}
+					
+	div.col-right{
+		float:right;
+		width:200px
+	}
+		
+	div.sidebar-left a{
+		color:#445e64;	/* this redefines all links in the left sidebar to this new color, as opposed to the default blue link color */
+	}
+	
+	div.sidebar-left a:hover{
+		text-decoration:none
+	}	/* when hovering over a link, in the sidebar, this turns off the underline */
+	
+	.info{
+		border-bottom:1px solid #c3dce1; 
+		padding:0 0 20px 0px;	
+		margin: 5px 5px 5px 5px;
+	}
+	.info li{
+		margin-bottom:10px
+	}
+	.info li a{
+		/*text-transform:uppercase;	/* this makes all anchor classes with .list uppercase  */
+		font-size:12px;	
+		float: right;
+	}
+	legend{
+		color: #000000;
+	}
+	#meeting{
+		border: #cccccc 2px solid;
+		border-radius:5px;
+		padding: 2px 5px 2px 5px;
+		margin: 5px 0px 5px 0px;
+	}
+	.upcoming{
+		padding: 0px 0px 5px 0px;
+	}
+	.upcoming li{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.past{
+		padding: 5px 0px 0px 0px;
+	}
+	.past li{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	div.col-mid a:hover{
+		text-decoration:none;
+	}
+				
+	div#footer{
+		background-color:#6e6e6e;
+		margin:0 auto;
+		padding:15px;
+		margin-top: 10px;
+		margin-bottom:20px;
+		text-align:center;
+		width:900px;
+		color: #FFF;
+	}
+	div#footer a{
+		color: #ffffff;
+	}
+	.float-left{
+		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
+		margin:0  10px 10px 0;
+		border-width:1px;
+	}
+
+	.coders-content{
+		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
+		margin:5px  10px 10px 0;
+		border:1px solid #cccccc;
+		background-color: none; /* #9e9e9e;*/
+		padding: 15px;
+		width: 90%;
+		height: 380px;
+		border-radius: 7px;
+	}
+	.coders-content li{
+		margin-bottom:10px;
+		color: #333333;
+	}
+	#resources
+	{
+	    margin: 10px 10px 10px 20px;
+	}
+	
+	#resources li
+	{
+	    margin: 10px 10px 10px 20px;
+	}
+
+	.float-right{
+		float:right;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
+	}
+	.float-right img{
+		margin:0 0 10px 10px;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
+	}
+	.event_topic{
+		font-weight: bold;
+	}
+	.event_detail{
+		float: right;
+	}
+
+	.twitter{
+		float: right;
+	}
+	.clear{
+		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
+	}	
