@@ -13,22 +13,22 @@ The website will contain the club information such as contact, resources, curren
 
 Important Milestones:
 
-Feb 2014:
+Feb 2014
 1.  Establish the Club's Committee to determine the contents
-2.  Finish the mockups 
+2.  Finish the mockups
 3.  Establish the first draft of the website requirements
-3.  Finish the setups 
-4.  Create online repository for collaboration
-5.  Launch the new website first time
+4.  Finish the setups 
+5.  Create online repository for collaboration
+6.  Launch the new website first time
 
-Mar 2014:
+Mar 2014
 1.  Streamlined the static pages and layouts
 2.  Research best practices for student programming club websites
 3.  Evaluate the libraries to be used in the existing website
 4.  Modify the current site and implement features according to the findings
 5.  Club Committee to finalize and document the content requirements for the club
 
-Apr 2014 - May 2014:
+Apr 2014 - May 2014
 1.  Optimize viewing experiences: cross-browser and mobile implementation.(aka responsive design)
 2.  Evaluate potential web frameworks(ex: Rails, Django, Wordpress, js frameworks,etc)
 3.  Suggest the future project to implement the relevant frameworks
