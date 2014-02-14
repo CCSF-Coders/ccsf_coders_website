@@ -5,11 +5,11 @@
 The City College of San Francisco's Coders Club would like to establish a new website.  
 The objective of the website is to to enhance communication among club members and present the club information to the public.  
 
----
+
 
 ![](http://hills.ccsf.edu/~swattana/ccsf_coders_website/images/coders_website_mockup.png)
 
----
+
 
 ##Project's Goals:##
 The team will create a new website with consistent design across web pages.  
