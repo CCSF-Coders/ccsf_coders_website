@@ -181,8 +181,18 @@
 		float: right;
 	}
 
-	.twitter{
-		float: right;
+	div.validator{
+	    text-align:left; 
+	    width:40px; 
+	    float:left; 
+	    margin-top:-6px;
+	}
+	div.social-icons{
+	    float:right;
+	}
+	div.copyrights{
+	    text-align:left; 
+	    width: 600px;
 	}
 	.clear{
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */

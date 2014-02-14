@@ -7,7 +7,7 @@
 
 <link href="css/dcmegamenu.css" rel="stylesheet" type="text/css" />
 <link href="css/skins/red.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="sample.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
@@ -493,23 +493,39 @@ $(document).ready(function($){
 <!-- ####################### Footer ######################## -->    
     <br class="clear" /> 
     <div id="footer">
-        <a href= "http://validator.w3.org/check?uri=http%3A%2F%2Fhills.ccsf.edu%2F~otangdec%2Fcnit131a%2Findex.html;st=1">
-            <img src="images/html5-logo.png" border="0px" width="40px" alt="html 5 validation" />
-        </a>
-        
-        Copyright &copy; 2014 
-        <a href="#" title="WebMaster"><b><u>CCSF Coders</u></b></a>. 
-        All rights reserved.
-
-        <script type="text/javascript">
-        var dateModified = document.lastModified;
-        mydate = dateModified.slice(0,10);
-        document.write("Last updated: " + mydate);
-        </script>
-        (Recommended resolution 1440 x 900)
-        &nbsp;
-
-    </div>      
+	<!-- validating from Oranuch's Hills Account? -->
+	<div class="validator">
+	  <a href= "http://validator.w3.org/check?uri=http%3A%2F%2Fhills.ccsf.edu%2F~otangdec%2Fcnit131a%2Findex.html;st=1">
+	      <img src="images/html5-logo.png" border="0px" width="40px" alt="html 5 validation" />
+	  </a>
+	</div>
+	<div class="social-icons">
+	  <a href= "http://www.facebook.com/ccsfcoders" target="_blank" title="Facebook" style="text-decoration: none;">
+	      <img src="images/icons/Facebook.png" border="0px" width="40px" alt="Facebook link" />
+	  </a>
+	  <a href= "https://twitter.com/ccsfcoders" target="_blank" title="Twitter" style="text-decoration: none;">
+	      <img src="images/icons/Twitter.png" border="0px" width="40px" alt="Twitter link" />
+	  </a>
+	  <a href= "https://github.com/CCSF-Coders" target="_blank" title="GitHub" style="text-decoration: none;">
+	      <img src="images/icons/GitHub.png" border="0px" width="40px" alt="GitHub link" />
+	  </a>
+	  <a href= "http://www.youtube.com/user/CCSFCoders" target="_blank" title="YouTube" style="text-decoration: none;">
+	      <img src="images/icons/YouTube.png" border="0px" width="40px" alt="YouTube link" />
+	  </a>
+	</div>
+	<div class="copyrights">
+	  Copyright &copy; 2014 
+	  <a href="#" title="WebMaster"><b><u>CCSF Coders</u></b></a>. 
+	  All rights reserved.
+	  <script type="text/javascript">
+	    var dateModified = document.lastModified;
+	    mydate = dateModified.slice(0,10);
+	    document.write("Last updated: " + mydate);
+	  </script>
+	  (Recommended resolution 1440 x 900)
+	  &nbsp;
+        </div>
+    </div>     
     
 
 </body>
