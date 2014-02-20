@@ -4,13 +4,11 @@
 	body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
 	}
-		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
-		are reset and can now be set to whatever properties that would suit your website best. */
 	
 	body{
-		background:#FFFFFF;	/* a light blue background color. */
-		font-family:Arial, Helvetica, sans-serif; /* the font family for all text on the web page is now either arial, helvetica or a sans-serif font if those two are not available */
-		font-size:13px; /* all normal text on the web page has a base font size of 14px now */
+		background:#FFFFFF;	
+		font-family:Arial, Helvetica, sans-serif; 
+		font-size:13px; 
 	}
 	
 	a, a:visited {
@@ -18,8 +16,8 @@
 	}
 	
 	p{
-		letter-spacing:.04em; /* letter spacing sets the horizontal spacing (kerning) between letters in a block of text. */
-		line-height:25px; /* line height sets the vertical spacing between lines of text. */
+		letter-spacing:.04em; 	
+		line-height:25px; 
 	}
 		
 	div#header{
@@ -36,8 +34,8 @@
 		border-bottom-left-radius: 4px;	/* these 6 lines of border-radius code make rounded corners for the bottom work in firefox, safari, chrome, opera and IE9 */
 		margin:0 auto; /* by declaring a width on any block element (like a div), giving it a css property of margin:0 auto will center that block element on page */
 		margin-top: 10px;
-		min-height:130px;	/* setting a minimum height of an element means that it can grow to be bigger, if there is a lot of content in it. However, if it doesn't have enough content, it will be at the very least (in this example) 130 pixels tall */
-		padding:45px 15px 15px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
+		min-height:100px;	/* setting a minimum height of an element means that it can grow to be bigger, if there is a lot of content in it. However, if it doesn't have enough content, it will be at the very least (in this example) 130 pixels tall */
+		padding:30px 15px 18px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
 		width:870px;	/* sets the width of the div to 900px. Remember that if you add padding to this element it will increase the size by the number of pixels in the padding. In this example the width is 900px and we have 15px to the left and right so the total width of the header will be (870px + 15px+15px=930px */
 		
 	}
@@ -46,13 +44,16 @@
 		font-size: 60px;
 		font-weight: bold;
 	}
+	#subhead1 a:active, a:hover, a:visited, a:link{
+		text-decoration: none;
+	}
 	#subhead2{
 		font-size: 20px;
 		padding-left: 20px;
 	}
 	
 	#ccsf_logo{
-		margin-left: 35px;
+		margin: 10px 35px 0px 35px;
 	}
 	div.content{
 		margin:15px auto; /* this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
@@ -67,13 +68,13 @@
 	
 	div.col-mid{
 		float:left;
-		width:450px;
+		width:440px;
 		margin: auto;
 	}
 					
 	div.col-right{
 		float:right;
-		width:200px
+		width:210px
 	}
 		
 	div.sidebar-left a{
@@ -104,7 +105,7 @@
 		border: #cccccc 2px solid;
 		border-radius:5px;
 		padding: 2px 5px 2px 5px;
-		margin: 5px 0px 5px 0px;
+		margin: 10px 0px 10px 0px;
 	}
 	.upcoming{
 		padding: 0px 0px 5px 0px;
@@ -128,7 +129,7 @@
 	div#footer{
 		background-color:#6e6e6e;
 		margin:0 auto;
-		padding:15px;
+		padding:13px;
 		margin-top: 10px;
 		margin-bottom:20px;
 		text-align:center;
@@ -181,6 +182,9 @@
 		float: right;
 	}
 
+	.annoucement{
+		margin: 10px 0px 0px 0px;
+	}
 	div.validator{
 	    text-align:left; 
 	    width:40px; 
@@ -193,6 +197,7 @@
 	div.copyrights{
 	    text-align:left; 
 	    width: 600px;
+		font-size: 12px;
 	}
 	.clear{
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */

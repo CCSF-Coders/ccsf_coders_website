@@ -7,31 +7,21 @@
 
 <link href="css/dcmegamenu.css" rel="stylesheet" type="text/css" />
 <link href="css/skins/red.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
 <script type='text/javascript' src='js/jquery.dcmegamenu.1.3.3.js'></script>
 <script type='text/javascript' src='js/modernizr2.7.1.js'></script>
+<script type='text/javascript' src='js/menu_addon.js'></script>
 
-<script type="text/javascript">
-$(document).ready(function($){
-    $('#mega-menu-red').dcMegaMenu({
-        rowItems: '3',
-        speed: 'fast',
-        effect: 'slide',
-        //event: 'click',
-        fullWidth: false
-    });
-});
-</script>
 
 
 </head>
 
 <body>
     <div id="header">
-        <span id="subhead1">CCSF Coders Club</span>
+        <a href="http://www.ccsf.edu/coders"><span id="subhead1">CCSF Coders Club</span></a>
         <span id="subhead2">" We love software engineering "</span>
 		
         <!-- ##################### Top Nav Bar ###################### -->
@@ -44,7 +34,7 @@ $(document).ready(function($){
                         <ul>
                             <li><a href="aboutus.html">About Us</a></li>
                             <li><a href="history.html">History</a></li>
-                            <li><a href="calendar.html">CCSF Coders Calendar</a></li>
+                            <!-- <li><a href="calendar.html">CCSF Coders Calendar</a></li> -->
                         </ul>
                     </li>
                     <li>
@@ -86,27 +76,23 @@ $(document).ready(function($){
 	    <!-- ##################### Left Column ###################### -->
 	 	<div class="sidebar-left">
 	    	<h3>Club Info</h3>
-			<p id="meeting">Weekly Meeting:<br/>Tue &amp; Thu @ BATMALE 413: 4pm &ndash; 6pm</p>
-	    	<ul class="info">
-	        	<li>Calendar: 
-				<a target="_blank" href="http://hills.ccsf.edu/~coders/calendar">
-						CCSF Coders Calendar
-				</a>
-			</li>
-			<li>Google Group:&nbsp; 
-				<a target="_blank" href="http://groups.google.com/group/ccsfcoders">
-					CCSF Coders Group
-				</a>
-			</li>
-			<li>Email:
-				<a href="mailto:coders@mail.ccsf.edu">coders@mail.ccsf.edu</a>
-			</li>
+			<p id="meeting">
+				Weekly Meeting:<br/>
+				Days: Tue &amp; Thu<br/>
+				Location: BATMALE 413<br/>
+				Time: 4pm &ndash; 6pm
+			</p>
+	    	<ul class="info"><br/>
+			<h3>Contact Us</h3><br/>
+				<li>Google Group:&nbsp; 
+					<a target="_blank" href="http://groups.google.com/group/ccsfcoders">
+						CCSF Coders Group
+					</a>
+				</li>
+				<li>Email:
+					<a href="mailto:coders@mail.ccsf.edu">coders@mail.ccsf.edu</a>
+				</li>
 	        </ul>
-
-	        <h3>Annoucement</h3>
-	        <p>02/06/14: Flex Day, No Classes!!</p>
-	        <p>02/14/14: President Day Holiday</p>
-			<p>02/17/14: President Day Holiday</p>
 
 	    </div><!-- close sidebar-left-->
 
@@ -148,8 +134,16 @@ $(document).ready(function($){
 <!-- ##################### Right Column ############################-->
 	<div class="col-right">
 			
-			<img id="ccsf_logo" src="images/ccsf_logo_white.jpg" width="150px"/>
-
+	        <h3>Annoucement</h3>
+	        <p class="annoucement"><b>Feb 28,14:</b> <br/>Last day to file petition for A.A or certificate</p>
+	        <p><b>Mar 31,14:</b> <br/>Cesar Chavez Holiday</p>
+			<p><b>Apr 01-04,14:</b> <br/>Spring Break!!</p>
+			<hr/>
+			
+			<a href="http://www.ccsf.edu">
+				<img id="ccsf_logo" src="images/ccsf_logo_white.jpg" width="150px"/>
+			</a>
+			
             
 	</div> <!-- close col-right-->
 </div> <!-- close content-->
@@ -159,12 +153,17 @@ $(document).ready(function($){
 <!-- ####################### Footer ######################## -->    
     <br class="clear" /> 
     <div id="footer">
-	<!-- validating from Oranuch's Hills Account? -->
+	<!-- 
+	validating from Oranuch's Hills Account? 
+	Ans: it's just a mock up validator icon, will re-validated the entire site once we're live :)
+	 -->
+	
 	<div class="validator">
 	  <a href= "http://validator.w3.org/check?uri=http%3A%2F%2Fhills.ccsf.edu%2F~otangdec%2Fcnit131a%2Findex.html;st=1">
 	      <img src="images/html5-logo.png" border="0px" width="40px" alt="html 5 validation" />
 	  </a>
 	</div>
+	
 	<div class="social-icons">
 	  <a href= "http://www.facebook.com/ccsfcoders" target="_blank" title="Facebook" style="text-decoration: none;">
 	      <img src="images/icons/Facebook.png" border="0px" width="40px" alt="Facebook link" />
@@ -178,20 +177,23 @@ $(document).ready(function($){
 	  <a href= "http://www.youtube.com/user/CCSFCoders" target="_blank" title="YouTube" style="text-decoration: none;">
 	      <img src="images/icons/YouTube.png" border="0px" width="40px" alt="YouTube link" />
 	  </a>
-	</div>
+	</div><!-- End social icon -->
+	
 	<div class="copyrights">
 	  Copyright &copy; 2014 
-	  <a href="#" title="WebMaster"><b><u>CCSF Coders</u></b></a>. 
+	  <a href="mailto:coders@mail.ccsf.edu" title="WebMaster"><b><u>CCSF Coders</u></b></a>. 
 	  All rights reserved.
 	  <script type="text/javascript">
 	    var dateModified = document.lastModified;
 	    mydate = dateModified.slice(0,10);
 	    document.write("Last updated: " + mydate);
 	  </script>
-	  (Recommended resolution 1440 x 900)
+	  <br/>(Recommended resolution 1440 x 900)
 	  &nbsp;
-        </div>
-    </div>      
+	</div>
+	
+	
+    </div><!-- End Footer -->      
     
 
 </body>
