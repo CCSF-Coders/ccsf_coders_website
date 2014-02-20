@@ -22,7 +22,7 @@
 		
 	div#header{
 		background-color:#3e3e3e;
-		background-image:url('images/header_bg.jpg');
+		background-image:url('../images/header_bg.jpg');
 		background-repeat:repeat-x; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
 		background-position:left bottom;/* sets a background image position */
 		color:#fff;	/* sets the the color of all header text to white */
@@ -93,11 +93,13 @@
 	.info li{
 		margin-bottom:10px
 	}
+	/*
 	.info li a{
-		/*text-transform:uppercase;	/* this makes all anchor classes with .list uppercase  */
+		text-transform:uppercase;  
 		font-size:12px;	
 		float: right;
 	}
+	*/
 	legend{
 		color: #000000;
 	}
