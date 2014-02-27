@@ -207,22 +207,22 @@ body{
 	}
 } /*  End of CSS Desktop Version  */
 
-/*======== For Mobile =========*/
+/*
+=============================================================================================
+======================================== For Mobile =========================================
+=============================================================================================
+*/
 @media screen and (max-device-width: 480px)
 {
-	body{
-		min-width: 85%;
-	}
+
 	div#header{
 		background-color:#3e3e3e;
 		background-image:url('../images/header_bg.jpg');
-		background-repeat:repeat-x; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
+		background-repeat:repeat; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
 		background-position:center;/* sets a background image position */
-		color:#fff;	/* sets the the color of all header text to white */
-		margin:0 auto; /* by declaring a width on any block element (like a div), giving it a css property of margin:0 auto will center that block element on page */
-		margin-bottom: 5px;
-		min-height:30px;	/* setting a minimum height of an element means that it can grow to be bigger, if there is a lot of content in it. However, if it doesn't have enough content, it will be at the very least (in this example) 130 pixels tall */
-		padding:15px 15px 18px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
+		color:#fff;
+		margin:-16px 0px 10px 1px; /* Margin top has to be negative to delete the top gap on mobile browser*/
+		padding:15px 15px 12px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
 		width:90%;	/* sets the width of the div to 900px. Remember that if you add padding to this element it will increase the size by the number of pixels in the padding. In this example the width is 900px and we have 15px to the left and right so the total width of the header will be (870px + 15px+15px=930px */
 		float: left;
 	}
@@ -232,6 +232,8 @@ body{
 		color: #ff0000;
 		font-size: 29px;
 		font-weight: bold;
+		padding-left: 5px;
+		margin:0 auto;
 	}
 	#subhead1 a:active, a:hover, a:visited, a:link{
 		text-decoration: none;
@@ -246,7 +248,7 @@ body{
 	}
 
 	#ccsf_logo{
-		margin-left: 40px;
+		margin-left: 50px;
 	}
 	div.content{
 		margin:15px auto; /* this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
@@ -254,13 +256,13 @@ body{
 	}
 
 	div.sidebar-left{
-		float:left;
-		padding:0 10px;
+		/*float:left;*/
+		margin: 0 auto;
 		width:90%;
 	}
 
 	div.col-mid{
-		float:left;
+		/*float:left;*/
 		width:90%;
 		margin: auto;
 	}
@@ -375,7 +377,7 @@ body{
 	}
 
 	.announcement{
-		margin: 10px 0px 0px 0px;
+		margin: 10px 0px 0px 10px;
 	}
 	div.validator{
 	    text-align:left;
