@@ -1,28 +1,28 @@
-	
+
 
 
 	body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
 	}
-	
+
 	body{
-		background:#FFFFFF;	
-		font-family:Arial, Helvetica, sans-serif; 
-		font-size:13px; 
+		background:#FFFFFF;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px;
 	}
-	
+
 	a, a:visited {
 	  color: #445e64;
 	}
-	
+
 	p{
-		letter-spacing:.04em; 	
-		line-height:25px; 
+		letter-spacing:.04em;
+		line-height:25px;
 	}
-		
+
 	div#header{
 		background-color:#3e3e3e;
-		background-image:url('images/header_bg.jpg');
+		background-image:url('../images/header_bg.jpg');
 		background-repeat:repeat-x; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
 		background-position:left bottom;/* sets a background image position */
 		color:#fff;	/* sets the the color of all header text to white */
@@ -37,7 +37,7 @@
 		min-height:100px;	/* setting a minimum height of an element means that it can grow to be bigger, if there is a lot of content in it. However, if it doesn't have enough content, it will be at the very least (in this example) 130 pixels tall */
 		padding:30px 15px 18px;	/* by setting a padding, the content within a HTML element will not touch the edges of that element (by adding padding to an element, it actually makes that element appear wider and/or taller.  In this case, the header div is now 15px wider and taller on each side. */
 		width:870px;	/* sets the width of the div to 900px. Remember that if you add padding to this element it will increase the size by the number of pixels in the padding. In this example the width is 900px and we have 15px to the left and right so the total width of the header will be (870px + 15px+15px=930px */
-		
+
 	}
 	#subhead1{
 		color: #ff0000;
@@ -51,7 +51,7 @@
 		font-size: 20px;
 		padding-left: 20px;
 	}
-	
+
 	#ccsf_logo{
 		margin: 10px 35px 0px 35px;
 	}
@@ -59,45 +59,47 @@
 		margin:15px auto; /* this adds a margin of 15px to the top and bottom of the div with the class of content.  The auto margin applies to the left and right side of the div which is what centers the div in the middle of the page. */
 		width:900px;
 	}
-	
+
 	div.sidebar-left{
 		float:left;
 		padding:0 10px;
 		width:225px;
 	}
-	
+
 	div.col-mid{
 		float:left;
 		width:440px;
 		margin: auto;
 	}
-					
+
 	div.col-right{
 		float:right;
 		width:210px
 	}
-		
+
 	div.sidebar-left a{
 		color:#445e64;	/* this redefines all links in the left sidebar to this new color, as opposed to the default blue link color */
 	}
-	
+
 	div.sidebar-left a:hover{
 		text-decoration:none
 	}	/* when hovering over a link, in the sidebar, this turns off the underline */
-	
+
 	.info{
-		border-bottom:1px solid #c3dce1; 
-		padding:0 0 20px 0px;	
+		/*border-bottom:1px solid #c3dce1;*/
+		padding:0 0 20px 0px;
 		margin: 5px 5px 5px 5px;
 	}
 	.info li{
 		margin-bottom:10px
 	}
+	/*
 	.info li a{
-		/*text-transform:uppercase;	/* this makes all anchor classes with .list uppercase  */
-		font-size:12px;	
+		text-transform:uppercase;
+		font-size:12px;
 		float: right;
 	}
+	*/
 	legend{
 		color: #000000;
 	}
@@ -121,11 +123,11 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
-	
+
 	div.col-mid a:hover{
 		text-decoration:none;
 	}
-				
+
 	div#footer{
 		background-color:#6e6e6e;
 		margin:0 auto;
@@ -163,7 +165,7 @@
 	{
 	    margin: 10px 10px 10px 20px;
 	}
-	
+
 	#resources li
 	{
 	    margin: 10px 10px 10px 20px;
@@ -186,19 +188,19 @@
 		margin: 10px 0px 0px 0px;
 	}
 	div.validator{
-	    text-align:left; 
-	    width:40px; 
-	    float:left; 
+	    text-align:left;
+	    width:40px;
+	    float:left;
 	    margin-top:-6px;
 	}
 	div.social-icons{
 	    float:right;
 	}
 	div.copyrights{
-	    text-align:left; 
+	    text-align:left;
 	    width: 600px;
 		font-size: 12px;
 	}
 	.clear{
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
-	}	
+	}
