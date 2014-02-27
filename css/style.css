@@ -188,6 +188,11 @@ body{
 	.announcement{
 		margin: 10px 0px 0px 0px;
 	}
+	
+	#linksmobile{
+		display: none;
+	}
+	
 	div.validator{
 	    text-align:left;
 	    width:40px;
@@ -375,10 +380,17 @@ body{
 	.event_detail{
 		float: right;
 	}
-
-	.announcement{
-		margin: 10px 0px 0px 10px;
+	#clubheaders{
+		font-weight:bold;
 	}
+	#clublist{
+		font-weight:300;
+		padding: 7px 7px 3px 10px;
+	}
+	.announcement{
+		margin: 10px 0px 0px 10px
+	}
+	
 	div.validator{
 	    text-align:left;
 	    width:40px;
