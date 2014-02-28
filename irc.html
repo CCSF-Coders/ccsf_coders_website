@@ -111,21 +111,75 @@
 <!-- ###################### Middle Column ################### -->
 
 
+    <!-- ## Kevin's Section with local file css style sets -->
 
-    <div class="col-mid" style="overflow: scroll;">
+    <style>
+        .irc_article {
+            float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
+            margin:5px  10px 10px 0;
+            border:1px solid #cccccc;
+            background-color: none; /* #9e9e9e;*/
+            padding: 15px;
+            width: 90%;
+            height: 380px;
+            border-radius: 7px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        .irc_article li {
+            margin-bottom:10px;
+            color: #333333;
+        }
+        div#roundtbl {
+            width: 260px;
+            height: auto;
+            border: 2px solid;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        img.roundimg {
+            border: 1px solid;
+            border-radius: 8px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        td { padding: 4px; }
+        li.irc { margin: 0 auto; }
+    </style>
+
+
+    <div class="col-mid">
 		<h3>Unofficial Coders' IRC</h3>
-        <article class="coders-content" >
+        <article class="irc_article">
 
-            <style>
-                table.irc { padding: 2px; border: 1px solid black; }
-                td.irc { padding: 2px; }
-                li.irc { margin: 0 auto; }
-            </style>
             <li>
                 <h4 class="title">Internet Relay Chat</h4>
                 <span class="name_of_person">
                     Internet Relay Chat, or IRC, is an internet chat service. IRC can be hosted on anyone's server that has an internet connection, as opposed to only one company or organization hosting every IRC server.
                 </span>
+            </li>
+            <h4 class="title" align="center"><i>Server Information</i></h4>
+            <div id="roundtbl">
+                <table class="irc">
+                    <tr><td class="irc"><b>Hostname</b></td><td class="irc">omega.ccsfcc.net</td></tr>
+                    <tr><td class="irc"><b>Ports</b></td><td class="irc">80, 6667</td></tr>
+                    <tr><td class="irc"><b>SSL Ports</b></td><td class="irc">443, 6697</td></tr>
+                    <tr><td class="irc"><b>Web Client</b></td><td class="irc"><a href="http://www.ccsfcc.net/irc" target="_blank">http://www.ccsfcc.net/irc</a></td></tr>
+                </table>
+            </div>
+            <br><li>
+                <h4 class="title">Screenshot of IRC Chat</h4>
+                <span class="name of person">
+                    Here's a sample of one console-based IRC client, <i>weechat</i>. Click it for a 1920x1080 image full image.
+                </span>
+                <center>
+                    <br><a href="images/full-screen-xmonad-irc-client-coders-cropped_1980x1080.png"
+                       target="_blank">
+                        <img class="roundimg" src="images/sample-xmonad-irc-client-coders-cropped_small.png"></img>
+                    </a>
+                </center>
             </li>
 
             <li>
@@ -133,16 +187,8 @@
                 <span class="name_of_person">
                     For the club's convenience, Kevin Morris hosts a free dedicated IRC server for the club or people who just want to hang out. This is the <i>unofficial Coders' Club IRC</i>. The below table has the server's information.
                 </span>
-                <center>
-                    <br><h4 class="title"><i>Server Information</i></h4>
-                    <table class="irc">
-                        <tr class="irc"><td class="irc"><b>Hostname</b></td><td class="irc">omega.ccsfcc.net</td></tr>
-                        <tr class="irc"><td class="irc"><b>Ports</b></td><td class="irc">80, 6667</td></tr>
-                        <tr class="irc"><td class="irc"><b>SSL Ports</b></td><td class="irc">443, 6697</td></tr>
-                        <tr class="irc"><td class="irc"><b>Web Client</b></td><td class="irc"><a href="http://www.ccsfcc.net/irc" target="_blank">http://www.ccsfcc.net/irc</a></td></tr>
-                    </table>
-                </center>
             </li>
+
         </article>
         
             
