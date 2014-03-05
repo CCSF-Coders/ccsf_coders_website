@@ -18,6 +18,8 @@
 <script type='text/javascript' src='js/modernizr2.7.1.js'></script>
 <script type='text/javascript' src='js/menu_addon.js'></script>
 <script type="text/javascript" src='js/response.min.js' ></script>
+<!-- handlebars -->
+<script type="text/javascript" src='js/handlebars-v1.3.0.js'></script>
 </head>
 
 <body>
@@ -160,6 +162,19 @@
                     <span class="event_place">Rosenberg 304</span>
                 </li>
             </ul>
+
+            <!-- current news/announcement -->
+            <div id="news">
+                <script id="template" type="text/x-handlebars-template">
+                    {{#each this}}
+                        <li>
+                            <h4>{{heading}}</h4>
+                            <p>{{news_content}}</p>
+                            <p>{{date}}</p>
+                        </li>
+                    {{/each}}
+                </script>
+            </div>
    </div> <!-- close col-mid-->
 	
 
@@ -223,7 +238,27 @@
 	</div>
 	
 	
-    </div><!-- End Footer -->      
+    </div><!-- End Footer -->   
+
+    <!-- script for adding the handlebars -->
+    <script>
+        ( function() {
+            var recent_news = [
+                {
+                    heading: 'Jason wants to donate $5,000 to CCSF Coders Club',
+                    news_content: 'The president of the CCSF Coders is generous',
+                    date: '3/4/14'
+                },
+                {
+                    heading: 'Critter has won the HTML5 Gaming Competition',
+                    news_content: 'Good job, Critter!',
+                    date: '3/2/14'
+                }
+            ];
+            var template = Handlebars.compile( $('#template').html());
+            $('#news').append( template( recent_news ));
+        })();
+    </script>    
     
 
 </body>
