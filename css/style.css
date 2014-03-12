@@ -44,6 +44,11 @@ body{
 		color: #ff0000;
 		font-size: 60px;
 		font-weight: bold;
+    text-shadow:
+      -5px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
 	}
 	#subhead1 a:active, a:hover, a:visited, a:link{
 		text-decoration: none;
