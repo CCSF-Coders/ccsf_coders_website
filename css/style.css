@@ -115,6 +115,13 @@ body{
 		padding: 2px 5px 2px 5px;
 		margin: 10px 0px 10px 0px;
 	}
+	.news {
+		padding: 0px 0px 5px 0px;
+	}
+	.news li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 	.upcoming{
 		padding: 0px 0px 5px 0px;
 	}
