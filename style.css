@@ -1,0 +1,66 @@
+
+#logo {
+	color: #00FF00;
+	padding-top: 20px;
+	text-align: left;
+}
+
+#logo,pre {
+	text-align: center;
+}
+
+
+
+
+body {
+	background-color: black;
+}
+
+
+h1 {
+	color: #00FF00;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Share Tech Mono', Monospace, Courier;
+}
+
+p {
+	color: #00FF00;
+	text-align: center;
+	font-family: 'Share Tech Mono', Monospace, Courier;
+}
+
+/*Nav bar Style*/
+
+#nav {
+	text-align: center;
+    padding-top: 15px;
+	font-family: 'Share Tech Mono', Monospace, Courier;
+}
+
+li {
+    display: inline;
+    padding: 10px; 
+    background-color: #00FF00;
+    text-decoration: none;
+}
+
+/* visited link */
+#nav,a,a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+#nav,a:hover {
+    color:#00FF00;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+}
+
+/* selected link */
+#nav,a:active {
+    color:black;
+    text-decoration: none;
+}
