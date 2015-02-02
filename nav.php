@@ -3,16 +3,14 @@
         'Home' => 'index.html',
         'Blog / News' => 'index.html',
         'Toy Box' => 'index.html',
-        'IRC' => 'http://www.nixcode.us/irc',
-        'Williams Github' => 'https://github.com/williamrmyers'
+        'IRC' => 'http://www.nixcode.us/irc'
     ];
 
     $newTab = [
         'Home' => false,
         'Blog / News' => false,
         'Toy Box' => false,
-        'IRC' => true,
-        'Williams Github' => true
+        'IRC' => true
     ];
 
     echo "<nav><ul>";
