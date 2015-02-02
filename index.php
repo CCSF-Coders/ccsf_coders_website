@@ -50,7 +50,7 @@ to start their careers. At our meetings, we provide a fun social environment,
 where members can develop their coding skills, share projects they are
  working on, find partners to collaborate with, and enjoy the company of other coders.
 
-Interested in joining? Please visit our <a href="/contact.html">Contact</a> page.
+Interested in joining? Please visit our <a href="#events">Events</a> page.
 </pre>
 
 </div>
@@ -58,7 +58,7 @@ Interested in joining? Please visit our <a href="/contact.html">Contact</a> page
 
 
 
-<div class="par">
+<div class="par" id="events">
 <h1>Upcoming Events</h1>
 
 <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23000000&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="600" height="500" frameborder="0" scrolling="no"></iframe>
