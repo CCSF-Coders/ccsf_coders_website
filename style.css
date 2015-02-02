@@ -94,11 +94,12 @@ pre a {
 }
 
 pre a, pre a:link, pre a:visited {
-    color: #fff;
+    color: #00FF00;
 }
 
 pre a:hover {
-    color: #11aa11;
+    color: #00FF00;
+    text-decoration: none;
 }
 
 
