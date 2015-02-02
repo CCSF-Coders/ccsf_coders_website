@@ -15,7 +15,7 @@
         'Williams Github' => true
     ];
 
-    echo "<div id='nav'><ul>";
+    echo "<nav><ul>";
 
     foreach($navList as $key => $value) {
         echo "<li><a href='" . $value . "' ";
@@ -23,7 +23,7 @@
         echo $key . "</a></li>";
     }
     
-    echo "</ul></div>";
+    echo "</ul></nav>";
 
 ?>
 

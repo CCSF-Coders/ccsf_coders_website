@@ -1,4 +1,9 @@
 
+body {
+	background-color: black;
+    min-width: 720px; /* Temporary hack fix to avoiding media queries */
+}
+
 #logo {
 	color: #00FF00;
 	padding-top: 20px;
@@ -11,10 +16,6 @@
 
 #logo pre, #logo xmp, #logo plaintext, #logo listing {
     font-family: "Monospace";
-}
-
-body {
-	background-color: black;
 }
 
 h1 {
@@ -31,14 +32,24 @@ p {
 }
 
 /*Nav bar Style*/
+.par {
+    padding-bottom: 10%;
+}
 
-#nav {
+.content {
+    color: #00FF00;
+    text-align: center;
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    height: 90%;
+}
+
+nav {
 	text-align: center;
     padding-top: 15px;
 	font-family: 'Share Tech Mono', Monospace, Courier;
 }
 
-#nav li {
+nav li {
     display: inline;
     margin-right: 10px;
     padding: 10px;
@@ -46,31 +57,31 @@ p {
     text-decoration: none;
 }
 
-#nav li:hover {
+nav li:hover {
     background: black;
     color: #00FF00;
 }
 
-#nav li:hover a {
+nav li:hover a {
     color: #00FF00;
 }
 
 /* Edited css to only cover links that are inside of #nav */
 /* visited link */
-#nav a, #nav a:visited {
+nav a, nav a:visited {
     color:black;
     text-decoration: none;
 }
 
 /* mouse over link */
-#nav a:hover {
+nav a:hover {
     color:#00FF00;
     text-decoration: none;
     /* padding: 10px; */
 }
 
 /* selected link */
-#nav a:active {
+nav a:active {
     color:black;
     text-decoration: none;
 }
