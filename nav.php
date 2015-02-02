@@ -1,8 +1,8 @@
 <?php
     $navList = [
-        'Home' => 'index.html',
-        'Blog / News' => 'index.html',
-        'Toy Box' => 'index.html',
+        'Home' => 'index.php',
+        'Blog / News' => 'blog.php',
+        'Toy Box' => 'index.php',
         'IRC' => 'http://www.nixcode.us/irc'
     ];
 
