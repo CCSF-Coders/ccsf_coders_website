@@ -1,16 +1,29 @@
 <?php
+    $navList = [
+        'Home' => 'index.html',
+        'Blog / News' => 'index.html',
+        'Toy Box' => 'index.html',
+        'IRC' => 'http://www.nixcode.us/irc',
+        'Williams Github' => 'https://github.com/williamrmyers'
+    ];
 
-echo "
-<div id='nav'>
- <ul>
-  <li><a href='index.html'>Home</a></li>
-  <li><a href='index.html'>Blog / News</a></li>
-  <li><a href='index.html'>Toy Box</a></li>
-  <li><a href='http://www.nixcode.us/irc' target='_blank'>IRC</a></li>
-  <li><a href='https://github.com/williamrmyers'>Williams Github</a></li>
- </ul>
-</div>
-";
+    $newTab = [
+        'Home' => false,
+        'Blog / News' => false,
+        'Toy Box' => false,
+        'IRC' => true,
+        'Williams Github' => true
+    ];
+
+    echo "<div id='nav'><ul>";
+
+    foreach($navList as $key => $value) {
+        echo "<li><a href='" . $value . "' ";
+        echo (($newTab[$key] == true) ? "target='_blank'>" : ">");
+        echo $key . "</a></li>";
+    }
+    
+    echo "</ul></div>";
 
 ?>
 

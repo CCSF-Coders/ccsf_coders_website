@@ -38,11 +38,21 @@ p {
 	font-family: 'Share Tech Mono', Monospace, Courier;
 }
 
-li {
+#nav li {
     display: inline;
-    padding: 10px; 
+    margin-right: 10px;
+    padding: 10px;
     background-color: #00FF00;
     text-decoration: none;
+}
+
+#nav li:hover {
+    background: black;
+    color: #00FF00;
+}
+
+#nav li:hover a {
+    color: #00FF00;
 }
 
 /* Edited css to only cover links that are inside of #nav */
@@ -56,8 +66,7 @@ li {
 #nav a:hover {
     color:#00FF00;
     text-decoration: none;
-    background-color: black;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* selected link */
@@ -68,7 +77,7 @@ li {
 
 /* Added body link styling, change this at your discretion */
 pre a {
-    text-decoration: none;
+    font-weight: bold;
 }
 
 pre a, pre a:link, pre a:visited {
@@ -76,7 +85,7 @@ pre a, pre a:link, pre a:visited {
 }
 
 pre a:hover {
-    color: #2244;
+    color: #11aa11;
 }
 
 
