@@ -5,16 +5,17 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>CCSF Coders Club</title>
+    <!-- Link to style.css -->
+    <link href='style.css' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
-<style>
-
-@import url(style.css);
-
-</style>
+    <style>
+        /* Extra styles go here. */
+    </style>
 
 </head>
 
 <body>
+
 <div id="logo">
 <pre> 
 ######################################################################################################################################################################
@@ -31,23 +32,20 @@
 </pre>
 </div>
 
-<div id="nav">
-
- <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="index.html">Blog / News</a></li>
-  <li><a href="index.html">Toy Box</a></li>
-  <li><a href="http://www.nixcode.us/irc" target="_blank">IRC</a></li>
-</ul> 
-
-</div>
-
+<!-- Include nav.php partial -->
+<?php include 'nav.php'; ?>
 
 <h1>About US</h1>
 
-<pre style="color: #00FF00;
-	text-align: center;
-	font-family: 'Share Tech Mono', Monospace, Courier;">
+<style>
+    .content {
+        color: #00FF00;
+        text-align: center;
+        font-family: 'Share Tech Mono', Monospace, Courier;
+    }
+</style>
+
+<pre class="content">
 The City College of San Francisco Coders Club is an organization 
 dedicated to providing students with resources and a social network of 
 individuals interested in computer programming. We actively participate in 
@@ -59,7 +57,7 @@ to start their careers. At our meetings, we provide a fun social environment,
 where members can develop their coding skills, share projects they are
  working on, find partners to collaborate with, and enjoy the company of other coders.
 
-Interested in joining? Please visit our Contact page.
+Interested in joining? Please visit our <a href="/contact.html">Contact</a> page.
 </pre>
 
 </body>
