@@ -5,17 +5,17 @@
 	text-align: left;
 }
 
-#logo,pre {
+#logo pre {
 	text-align: center;
 }
 
-
-
+#logo pre, #logo xmp, #logo plaintext, #logo listing {
+    font-family: "Monospace";
+}
 
 body {
 	background-color: black;
 }
-
 
 h1 {
 	color: #00FF00;
@@ -45,14 +45,15 @@ li {
     text-decoration: none;
 }
 
+/* Edited css to only cover links that are inside of #nav */
 /* visited link */
-#nav,a,a:visited {
+#nav a, #nav a:visited {
     color:black;
     text-decoration: none;
 }
 
 /* mouse over link */
-#nav,a:hover {
+#nav a:hover {
     color:#00FF00;
     text-decoration: none;
     background-color: black;
@@ -60,7 +61,22 @@ li {
 }
 
 /* selected link */
-#nav,a:active {
+#nav a:active {
     color:black;
     text-decoration: none;
 }
+
+/* Added body link styling, change this at your discretion */
+pre a {
+    text-decoration: none;
+}
+
+pre a, pre a:link, pre a:visited {
+    color: #fff;
+}
+
+pre a:hover {
+    color: #2244;
+}
+
+
