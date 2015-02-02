@@ -36,21 +36,30 @@
 <?php include 'nav.php'; ?>
 
 <div class="par">
-<h1>About US</h1>
+<h1>Welcome</h1>
 
 <pre class="content">
-The City College of San Francisco Coders Club is an organization 
-dedicated to providing students with resources and a social network of 
-individuals interested in computer programming. We actively participate in 
-the professional community through meetups, conferences, workshops, talks, and more.
+You've found the door to the furthest reaches of human existence.
 
-We organize speakers and study groups, share internships and employment 
-opportunities so that we may help our members gain the experiences necessary 
-to start their careers. At our meetings, we provide a fun social environment, 
-where members can develop their coding skills, share projects they are
- working on, find partners to collaborate with, and enjoy the company of other coders.
+Beyond which there is even more beyondness. We are the coders of CCSF.
+If you are interested in coding, would like to learn more about coding, 
+would like to learn anything about coding, you would like to some advice 
+on what classes to take, or what to do with your future. CCSF coders is 
+the place for you!
 
-Interested in joining? Please visit our <a href="#events">Events</a> page.
+If not CCSF Coders club might be the place for you anyway. For example 
+do you like the internet? DO you want to build more internet? WE CAN HELP!
+
+CCSF coders is a group of students of varying degrees of skill but all with 
+an interest in computer science who meet up every week to work on project, 
+discuss computer science, and complain about their classes.
+
+To join literally all you have to do is show up, we disclike red tape, and 
+hierarchical structures. At coders club we actively inclusive of women, 
+POC, and would like to provide a safe place for LGBT community members.
+
+Check out upcoming <a href="#events">Events here</a> , or get in contact with us.
+
 </pre>
 
 </div>
