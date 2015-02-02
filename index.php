@@ -55,4 +55,41 @@ Interested in joining? Please visit our <a href="/contact.html">Contact</a> page
 
 </div>
 
+
+
+
+<div class="par">
+<h1>Upcoming Events</h1>
+
+<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23000000&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="600" height="500" frameborder="0" scrolling="no"></iframe>
+
+</div>
+
+
+<div class="par">
+<h1> <!-- Header goes here --> </h1>
+
+<pre class="content">
+
+<!-- Text goes here -->
+
+</pre>
+
+</div>
+
+</body>
+
+
+
+<div class="par">
+<h1> <!-- Header goes here --> </h1>
+
+<pre class="content">
+
+<!-- Text goes here -->
+
+</pre>
+
+</div>
+
 </body>
