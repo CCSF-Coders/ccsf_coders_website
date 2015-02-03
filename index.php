@@ -70,17 +70,22 @@ Check out upcoming <a href="#events">Events here</a> , or get in contact with us
 <div class="par" id="events">
 <h1>Upcoming Events</h1>
 
+<pre class="content">
+Stop in on thursday for our weekly hang out at Batmale 453.
+</pre>
+
 <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23000000&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="600" height="500" frameborder="0" scrolling="no"></iframe>
 
 </div>
 
 
 <div class="par">
-<h1> <!-- Header goes here --> </h1>
+<h1> Get In Touch </h1>
 
 <pre class="content">
 
 <!-- Text goes here -->
+Join our conversations on our <a href="http://groups.google.com/group/ccsfcoders">Google Group</a>.
 
 </pre>
 

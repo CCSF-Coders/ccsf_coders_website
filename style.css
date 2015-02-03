@@ -15,7 +15,7 @@ body {
 }
 
 #logo pre, #logo xmp, #logo plaintext, #logo listing {
-    font-family: "Monospace";
+    font-family: Monospace;
 }
 
 h1 {
