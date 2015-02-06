@@ -36,11 +36,11 @@
 <?php include 'nav.php'; ?>
 
 <div class="par">
-<h1> <!-- Header goes here --> </h1>
+<h1> New Website </h1>
 
 <pre class="content">
 
-<!-- Text goes here -->
+
 
 </pre>
 

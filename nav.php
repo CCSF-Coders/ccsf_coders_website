@@ -1,16 +1,17 @@
 <?php
     $navList = [
         'Home' => 'index.php',
-        'Blog / News' => 'blog.php',
-        'Toy Box' => 'index.php',
+		'Events' => 'index.php#events',
+		'Contact' => 'index.php#contact',
+        'Blog' => 'blog.php',
         'IRC' => 'http://www.nixcode.us/irc'
     ];
 
     $newTab = [
         'Home' => false,
-        'Blog / News' => false,
-        'Toy Box' => false,
-        'IRC' => true
+		'Events' => false,
+        'Blog' => false,
+        'IRC' => true,
     ];
 
     echo "<nav><ul>";

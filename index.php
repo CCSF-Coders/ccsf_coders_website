@@ -58,7 +58,7 @@ To join literally all you have to do is show up, we disclike red tape, and
 hierarchical structures. At coders club we actively inclusive of women, 
 POC, and would like to provide a safe place for LGBT community members.
 
-Check out upcoming <a href="#events">Events here</a> , or get in contact with us.
+Check out upcoming <a href="#events">Events here</a> , or <a href="#contact">get in contact with us</a>.
 
 </pre>
 
@@ -79,13 +79,20 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 </div>
 
 
-<div class="par">
+<div class="par" id="contact">
 <h1> Get In Touch </h1>
 
 <pre class="content">
 
+
+
+
 <!-- Text goes here -->
-Join our conversations on our <a href="http://groups.google.com/group/ccsfcoders">Google Group</a>.
+The best way to get in touch is to come to our Wensday meetings 
+at Batmale 453. The second best way is to get on connect with us 
+on <a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group</a>. You can also chat with us on <a href="http://www.nixcode.us/irc" target="_blank">IRC</a> with 
+our web client, lean how to use IRC on our <a href="irc.php">IRC</a> page. 
+You can also send us an email at <a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a>.
 
 </pre>
 
