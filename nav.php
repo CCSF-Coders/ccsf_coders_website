@@ -1,6 +1,6 @@
 <?php
     $navList = [
-        'Home' => 'index.php',
+        'Home' => 'index.php#logo',
 		'Events' => 'index.php#events',
 		'Contact' => 'index.php#contact',
         'Blog' => 'blog.php',

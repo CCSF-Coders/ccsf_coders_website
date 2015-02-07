@@ -38,10 +38,10 @@
 <div class="par">
 <h1> New Website </h1>
 
+
 <pre class="content">
 
-
-
+<span style="color:blue;">Author: William Myers March 29th 2015</span>
 </pre>
 
 </div>
