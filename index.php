@@ -58,8 +58,6 @@ To join literally all you have to do is show up, we disclike red tape, and
 hierarchical structures. At coders club we actively inclusive of women, 
 POC, and would like to provide a safe place for LGBT community members.
 
-Author: William Myers March 29th 2015
-
 Check out upcoming <a href="#events">Events here</a> , or <a href="#contact">get in contact with us</a>.
 
 </pre>
