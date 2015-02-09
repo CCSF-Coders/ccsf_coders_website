@@ -54,9 +54,10 @@ CCSF coders is a group of students of varying degrees of skill but all with
 an interest in computer science who meet up every week to work on project, 
 discuss computer science, and complain about their classes.
 
-To join literally all you have to do is show up, we disclike red tape, and 
-hierarchical structures. At coders club we actively inclusive of women, 
-POC, and would like to provide a safe place for LGBT community members.
+To join literally all you have to do is show up to <a href="#events">our weekly tuesday meeings</a>, 
+we disclike red tape, and hierarchical structures. At coders club we 
+actively inclusive of women, POC, and would like to provide a safe place 
+for LGBT community members.
 
 Check out upcoming <a href="#events">Events here</a> , or <a href="#contact">get in contact with us</a>.
 
@@ -73,7 +74,7 @@ Check out upcoming <a href="#events">Events here</a> , or <a href="#contact">get
 Stop in on thursday for our weekly hang out at Batmale 453.
 </pre>
 
-<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23000000&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="600" height="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <nav><ul>
 	<li><a href='index.php#logo' >Upsidasy</a></li>
 	<li><a href='index.php#contact' >Downsidasy</a></li>
@@ -81,7 +82,7 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 </div>
 
 
-<div class="par" id="contact">
+<div class="par" id="contact" class="border">
 <h1 style="padding-top:250px;"> Get In Touch </h1>
 
 <pre class="content">

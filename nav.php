@@ -10,6 +10,7 @@
     $newTab = [
         'Home' => false,
 		'Events' => false,
+		'Contact' => false,
         'Blog' => false,
         'IRC' => true,
     ];
