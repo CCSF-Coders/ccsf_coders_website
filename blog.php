@@ -10,6 +10,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
     <style>
         /* Extra styles go here. */
+.content {
+    text-align: left;
+	padding-left:150px;
+}
 		
     </style>
 
@@ -35,13 +39,15 @@
 
 <!-- Include nav.php partial -->
 <?php include 'nav.php'; ?>
-
+	
 <div class="par" style="font-size: 85%;">
 <h1> New Website </h1>
 
 
+	
+
 <pre class="content">
-So we have a new website! I rebuilding it was a learning experience for me and hopefully improved 
+So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
 the look and feel of the website. With this first blog post I’d like to list what I 
 hoped to accomplish. Of course the website should be a landing page for anyone who is looking up 
 coders club to attend. I think it would be nice if it had some content that people (member and non 

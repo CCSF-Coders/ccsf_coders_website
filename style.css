@@ -102,4 +102,9 @@ pre a:hover {
     text-decoration: none;
 }
 
+/* Craete a boarder */
+
+.border {
+	border: 5px solid #00FF00;
+}
 

@@ -82,22 +82,22 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 </div>
 
 
-<div class="par" id="contact" class="border">
+	
+
+<div class="par" id="contact" >
 <h1 style="padding-top:250px;"> Get In Touch </h1>
 
 <pre class="content">
 <!-- Text goes here -->
-The best way to get in touch is to come to our Wensday meetings 
+The best way to get in touch is to come to our Thursday meetings at Batmale 453. 
 
-at Batmale 453. The second best way is to get on connect with us 
+<a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group Forum</a>
 
-on <a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group</a>. You can also chat with us on <a href="http://www.nixcode.us/irc" target="_blank">IRC</a> with 
+You can also chat with us on <a href="http://www.nixcode.us/irc" target="_blank">IRC</a> with 
 
 our web client, lean how to use IRC on our <a href="irc.php">IRC</a> page. 
 
-You can also send us an email at <a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a>.
-
-
+Email Us At <a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a>.
 
 
 
@@ -108,5 +108,9 @@ You can also send us an email at <a href="mailto:coders%40mail.ccsf.edu">coders@
 <!-- Include nav.php partial -->
 <?php include 'nav.php'; ?>
 </div>
+	
+	
+</div>
+
 </body>
 
