@@ -28,7 +28,7 @@
 <div class="info-wrapper">
   <h1>Meeting Times</h1>
   <div class="info">
-    5PM - 7PM<br>
+    Thursday, 5PM - 7PM<br>
     Batmale Hall, Rm 453
   </div>
 </div>

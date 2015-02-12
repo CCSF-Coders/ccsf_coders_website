@@ -27,7 +27,7 @@
 <div class="info-wrapper">
   <h1>Meeting Times</h1>
   <div class="info">
-    5PM - 7PM<br>
+    Thursday, 5PM - 7PM<br>
     Batmale Hall, Rm 453
   </div>
 </div>
@@ -102,7 +102,7 @@ Stop in on thursday for our weekly hang out at Batmale 453.
       <tr>
         <td>Tyler Brothers</td>
         <td>President</td>
-        <td><a href="#">tbrothers@gmail.com</a></td>
+        <td><a href="mailto:tylerbrothers1%40gmail.com">tylerbrothers1@gmail.com</a></td>
       </tr>
       <tr>
         <td>Craig Persiko</td>
@@ -138,14 +138,16 @@ Stop in on thursday for our weekly hang out at Batmale 453.
   </table>
 
   <br>
-  <p>
-    <!-- Text goes here -->
-    The best way to get in touch is to come to our Thursday meetings at Batmale 453.<br> 
-    <a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group Forum</a><br>
-    You can also chat with us on <a href="http://www.nixcode.us/irc" target="_blank">IRC</a> with
-    our web client, learn how to use IRC on our <a href="irc.php">IRC</a> page.<br>
-    Email Us At <a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a>.
-  </p>
+  <table class="contacts">
+    <thead>
+      <tr><td><b>Media</b></td><td><b>Link</b></td></tr>
+    </thead>
+    <tbody>
+      <tr><td>Forum</td><td><a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group</a></td></tr>
+      <tr><td>Chat</td><td><a href="https://www.nixcode.us/irc" target="_blank">IRC</a></td></tr>
+      <tr><td>Email</td><td><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></td></tr>
+    </tbody>
+  </table>
 
   <!-- Include nav.php partial -->
   <div class="footer-nav">
