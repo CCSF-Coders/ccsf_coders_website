@@ -32,10 +32,16 @@ p {
 }
 
 /*Nav bar Style*/
-.par {
+.section {
   padding-bottom: 10%;
   /*padding-bottom: 100px;*/
   text-align: center;
+}
+
+.section p {
+  text-indent: 32px;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .content {
@@ -98,6 +104,24 @@ nav a:active {
   text-decoration: none;
 }
 
+.info-wrapper {
+  position: absolute;
+  right: 10px;
+  margin-right: 20px;
+}
+
+.info-wrapper h1 {
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.info {
+  border: 2px solid #cccccc;
+  padding: 12px;
+  font-size: 14px;
+}
+
 /* Added body link styling, change this at your discretion */
 a {
   font-weight: bold;
@@ -112,10 +136,12 @@ a:hover {
   text-decoration: none;
 }
 
-/* Craete a boarder */
-
 .border {
   border: 5px solid #00FF00;
+}
+
+.section {
+  margin-bottom: 200px;
 }
 
 table.contacts {
@@ -135,4 +161,6 @@ table.contacts td {
   padding-right: 10px;
 }
 
+.footer-nav {
+}
 
