@@ -7,7 +7,7 @@
 	<title>CCSF Coders Club</title>
     <!-- Link to style.css -->
     <link href='style.css' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
+ 	  <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
     <style>
         /* Extra styles go here. */
 .content {
@@ -16,6 +16,8 @@
 }
 		
     </style>
+
+    <script src='script.js'></script>
 
 </head>
 
@@ -42,9 +44,6 @@
 	
 <div class="par" style="font-size: 85%;">
 <h1> New Website </h1>
-
-
-	
 
 <pre class="content">
 So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
