@@ -1,29 +1,39 @@
 <?php
-    $navList = [
-        'Home' => 'index.php#logo',
-		'Events' => 'index.php#events',
-		'Contact' => 'index.php#contact',
-        'Blog' => 'blog.php',
-        'IRC' => 'http://www.nixcode.us/irc'
-    ];
+# This file uses spaces, not tab characters. Adjust accordingly, please.
+  $navList = [
+    'Home' => 'index.php',
+    'Events' => 'index.php#events',
+    'Contact' => 'index.php#contact',
+    'Blog' => 'blog.php',
+    'IRC' => 'http://www.nixcode.us/irc'
+  ];
 
-    $newTab = [
-        'Home' => false,
-		'Events' => false,
-		'Contact' => false,
-        'Blog' => false,
-        'IRC' => true,
-    ];
+  $newTab = [
+    'Home' => false,
+    'Events' => false,
+    'Contact' => false,
+    'Blog' => false,
+    'IRC' => true,
+  ];
 
-    echo "<nav><ul>";
+  echo "<nav class='nav-bar'><ul class='nav-list-wrapper'>";
 
-    foreach($navList as $key => $value) {
-        echo "<li><a href='" . $value . "' ";
-        echo (($newTab[$key] == true) ? "target='_blank'>" : ">");
-        echo $key . "</a></li>";
+  foreach($navList as $key => $value) {
+    echo "<li onclick=\"link('" . $value . "'";
+    if($newTab[$key] == true)
+    {
+      echo ", true";
     }
-    
-    echo "</ul></nav>";
+    else
+    {
+      echo ", false";
+    }
+    echo ");\">";
+    #echo (($newTab[$key] == true) ? "target='_blank'>" : ">");
+    echo $key . "</li>";
+  }
+  
+  echo "</ul></nav>";
 
 ?>
 
