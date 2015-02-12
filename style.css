@@ -1,22 +1,21 @@
 
 body {
   background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
   min-width: 720px; /* Temporary hack fix to avoiding media queries */
   color: #00FF00;
   font-family: "Share Tech Mono", Monospace, Courier;
 }
 
-#logo {
-  padding-top: 20px;
-  text-align: left;
+.logo {
+  width: 100%;
 }
 
-#logo pre {
-  text-align: center;
-}
-
-#logo, #logo pre, #logo xmp, #logo plaintext, #logo listing {
-  font-family: "Monospace";
+.logo img {
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -35,7 +34,7 @@ p {
 /*Nav bar Style*/
 .par {
   padding-bottom: 10%;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
   text-align: center;
 }
 

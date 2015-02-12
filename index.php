@@ -19,21 +19,7 @@
 
 <body>
 
-<div id="logo">
-<pre> 
-######################################################################################################################################################################
-
- ######   ######   ######  ########     ######   #######  ########  ######## ########   ######  
-##    ## ##    ## ##    ## ##          ##    ## ##     ## ##     ## ##       ##     ## ##    ## 
-##       ##       ##       ##          ##       ##     ## ##     ## ##       ##     ## ##       
-##       ##        ######  ######      ##       ##     ## ##     ## ######   ########   ######  
-##       ##             ## ##          ##       ##     ## ##     ## ##       ##   ##         ## 
-##    ## ##    ## ##    ## ##          ##    ## ##     ## ##     ## ##       ##    ##  ##    ## 
- ######   ######   ######  ##           ######   #######  ########  ######## ##     ##  ######  
-
- #####################################################################################################################################################################
-</pre>
-</div>
+<div class="logo"><img src="img/logo.png"></img></div>
 
 <!-- Include nav.php partial -->
 <?php include 'nav.php'; ?>
@@ -75,7 +61,7 @@ Check out upcoming <a href="#events">Events here</a> , or <a href="#contact">get
 Stop in on thursday for our weekly hang out at Batmale 453.
 </pre>
 
-<iframe src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
 <nav><ul>
   <li><a href='index.php#logo' >Upsidasy</a></li>
   <li><a href='index.php#contact' >Downsidasy</a></li>
@@ -105,9 +91,6 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 
 <pre class="content">
 <!-- Text goes here -->
-
-
-
 The best way to get in touch is to come to our Thursday meetings at Batmale 453. 
 
 <a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group Forum</a>
