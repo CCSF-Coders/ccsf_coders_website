@@ -5,7 +5,7 @@
     'Events' => 'index.php#events',
     'Contact' => 'index.php#contact',
     'Blog' => 'blog.php',
-    'IRC' => 'http://www.nixcode.us/irc'
+    'IRC' => 'https://www.nixcode.us/irc'
   ];
 
   $newTab = [

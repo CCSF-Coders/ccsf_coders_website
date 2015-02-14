@@ -7,12 +7,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>CCSF Coders Club</title>
     <!-- Link to style.css -->
+  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
   <link href='style.css' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
   <style>
     /* Extra styles go here. */
   </style>
 
+  <script src='//code.jquery.com/jquery-2.1.3.js'></script>
   <script src='script.js'></script>
 
 </head>
@@ -30,6 +32,13 @@
     Thursday, 5PM - 7PM<br>
     Batmale Hall, Rm 453
   </div>
+</div>
+
+<div class="quick-links">
+  <a href="https://github.com/CCSF-Coders" target="_blank"><i class="fa fa-github-square"></i></a>
+  <a href="https://facebook.com/ccsfcoders" target="_blank"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.youtube.com/user/CCSFCoders" target="_blank"><i class="fa fa-youtube-square"></i></a>
+  <a href="https://groups.google.com/forum/#!forum/ccsfcoders" target="_blank"><i class="fa fa-google"></i></a>
 </div>
 
 <div class="section" id="welcome">
@@ -71,9 +80,15 @@
     is extremely useful to those interested in working with the open source
     community, and developers of all kinds who take advantage of Git and Github.
     See more about the event at
-    <a href="http://ccsf.openhatch.org" target="_blank">OpenHatch: Open Source Comes to Campus</a>,
+    <a href="https://events.openhatch.org/events/4" target="_blank">OpenHatch: Open Source Comes to Campus</a>,
     we hope to see you there!
   </p>
+  <br>
+
+  <time>
+    It'll all be hosted on February 28th, 9AM - 5PM PST!
+  </time>
+  <a style="color: #fff;" href="https://events.openhatch.org/events/4" target="_blank">Register Here!</a>
 
 </div>
 
@@ -96,7 +111,7 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 
   <table class="contacts">
     <thead>
-      <tr><td>Name</td><td>Title</td><td>Email</td></tr>
+      <tr><td>Name</td><td>Title</td><td>Link</td></tr>
     </thead>
     <tbody>
       <tr>
@@ -108,32 +123,23 @@ Stop in on thursday for our weekly hang out at Batmale 453.
         <td>Craig Persiko</td>
         <td>Advisor</td>
         <td>
-          <a href="mailto:cpersiko@ccsf.edu">cpersiko@ccsf.edu</a>
+          <a href="http://fog.ccsf.edu/~cpersiko">Personal Website</a>
         </td>
       </tr>
       <tr>
         <td>Kevin Morris</td>
         <td>Treasurer</td>
         <td>
-          <a href="mailto:kmorris7@mail.ccsf.edu">kmorris7@mail.ccsf.edu</a>
+          <a href="mailto:kmorris7%40mail.ccsf.edu">kmorris7@mail.ccsf.edu</a>
         </td>
       </tr>
-      <tr>
-        <td>Katherine Moloney</td>
-        <td>Founder</td>
-        <td>
-          <a href="#">kmoloney@mail.ccsf.edu</a>
-        </td>
-      </tr>
-
       <tr>
         <td>William Myers</td>
         <td>Site Developer</td>
         <td>
-          <a href="#">wmyers@mail.ccsf.edu</a>
+          <a href="mailto:wmyers%40mail.ccsf.edu">wmyers@mail.ccsf.edu</a>
         </td>
       </tr>
-
     </tbody>
   </table>
 
@@ -157,5 +163,7 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 
 </div>
 
+<script src='quick.js'></script>
 </body>
+
 
