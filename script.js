@@ -10,5 +10,5 @@ var link = function(url, newTab) {
   {
     window.location.href = url;
   }
-};
+}
 

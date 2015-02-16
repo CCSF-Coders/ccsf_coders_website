@@ -1,11 +1,12 @@
+
 <?php
 # This file uses spaces, not tab characters. Adjust accordingly, please.
   $navList = [
-    'Home' => 'index.php',
-    'Events' => 'index.php#events',
-    'Contact' => 'index.php#contact',
-    'Blog' => 'blog.php',
-    'IRC' => 'http://www.nixcode.us/irc'
+    'Home' => 'index.html',
+    'Events' => 'index.html#events',
+    'Contact' => 'index.html#contact',
+    'Blog' => 'blog.html',
+    'IRC' => 'https://www.nixcode.us/irc'
   ];
 
   $newTab = [
@@ -16,7 +17,7 @@
     'IRC' => true,
   ];
 
-  echo "<nav class='nav-bar'><ul class='nav-list-wrapper'>";
+  echo "<ul class='nav-list-wrapper'>";
 
   foreach($navList as $key => $value) {
     echo "<li onclick=\"link('" . $value . "'";
@@ -33,7 +34,7 @@
     echo $key . "</li>";
   }
   
-  echo "</ul></nav>";
+  echo "</ul>";
 
 ?>
 

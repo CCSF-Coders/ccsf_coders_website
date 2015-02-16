@@ -18,6 +18,24 @@ body {
   height: 100%;
 }
 
+.quick-links {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  text-decoration: none;
+}
+
+.quick-links i {
+  margin-bottom: 10px;
+  font-size: 32px;
+  display: block;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
 h1 {
   color: #00FF00;
   text-align: center;
@@ -53,12 +71,10 @@ p {
 
 nav {
   text-align: center;
+  margin-left: -50px;
   padding-top: 15px;
   font-family: 'Share Tech Mono', Monospace, Courier;
   height: 38px;
-}
-
-nav ul {
 }
 
 nav li {
@@ -69,9 +85,6 @@ nav li {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-nav li a {
 }
 
 nav li:hover {
@@ -162,5 +175,9 @@ table.contacts td {
 }
 
 .footer-nav {
+}
+
+time {
+  display: block;
 }
 
