@@ -16,7 +16,7 @@
     /* Extra styles go here. */
   </style>
 
-  <script src='//code.jquery.com/jquery-2.1.3.js'></script>
+  <script src='//code.jquery.com/jquery-2.1.3.min.js'></script>
   <script src='script.js'></script>
 
 </head>
@@ -25,7 +25,7 @@
 
 <div class="logo"><img src="img/logo.png"></img></div>
 <!-- Include nav.php partial -->
-<?php include 'nav.php'; ?>
+<nav class='nav-bar'></nav>
 
 <div class="info-wrapper">
   <h1>Meeting Times</h1>
@@ -110,7 +110,16 @@
 </div>
 
 <!-- Include nav.php partial -->
-<?php include 'nav.php'; ?>
+<nav class='nav-bar'></nav>
+
+<script>
+  $.ajax({
+    type: "GET", url: "nav.php",
+    success: function(data) {
+      $('.nav-bar').html(data);
+    }
+  });
+</script>
 
 <script src='quick.js'></script>
 </body>

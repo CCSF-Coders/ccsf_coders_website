@@ -18,4 +18,5 @@ $(this).scroll(function(event) {
 });
 
 setQuick();
+window.onload = setQuick;
 

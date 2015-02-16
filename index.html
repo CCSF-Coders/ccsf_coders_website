@@ -14,7 +14,7 @@
     /* Extra styles go here. */
   </style>
 
-  <script src='//code.jquery.com/jquery-2.1.3.js'></script>
+  <script src='//code.jquery.com/jquery-2.1.3.min.js'></script>
   <script src='script.js'></script>
 
 </head>
@@ -24,8 +24,7 @@
 <div class="logo"><img src="img/logo.png"></img></div>
 
 <!-- Include nav.php partial -->
-<?php include 'nav.php'; ?>
-
+<nav class='nav-bar'></nav>
 <div class="info-wrapper">
   <h1>Meeting Times</h1>
   <div class="info">
@@ -101,8 +100,8 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 
 <iframe src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
 <nav><ul>
-  <li><a href='index.php' >Upsidasy</a></li>
-  <li><a href='index.php#contact' >Downsidasy</a></li>
+  <li><a href='index.html' >Upsidasy</a></li>
+  <li><a href='index.html#contact' >Downsidasy</a></li>
 </nav>
 </div>
 
@@ -157,11 +156,19 @@ Stop in on thursday for our weekly hang out at Batmale 453.
 
   <!-- Include nav.php partial -->
   <div class="footer-nav">
-    <?php include 'nav.php'; ?>
+    <nav class='nav-bar'></nav>
   </div>
 
 
 </div>
+<script>
+  $.ajax({
+    type: "GET", url: "nav.php",
+    success: function(data) {
+      $('.nav-bar').html(data);
+    }
+  });
+</script>
 
 <script src='quick.js'></script>
 </body>
