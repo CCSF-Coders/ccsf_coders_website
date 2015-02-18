@@ -1,9 +1,9 @@
 <!-- Begin footer.php -->
 <?php 
 
-$templateDirectory = '../partials/';
+	$templateDirectory = '../partials/';
 
-require_once($templateDirectory.'footer.php');
+	require_once($templateDirectory.'footer.php');
 
 ?>
 <!-- End footer.php -->

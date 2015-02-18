@@ -3,13 +3,13 @@
     <h1> New Website </h1>
 
     <p class="body">
-    So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
-    the look and feel of the website. With this first blog post I’d like to list what I 
-    hoped to accomplish. Of course the website should be a landing page for anyone who is looking up 
-    coders club to attend. I think it would be nice if it had some content that people (member and non 
-    members) could come back to enjoy. I would like it to express who we are more than with a 
-    statement but with style, as well serve as a playground for club members. I’d like to see changes 
-    made weekly contributed by different members.
+      So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
+      the look and feel of the website. With this first blog post I’d like to list what I 
+      hoped to accomplish. Of course the website should be a landing page for anyone who is looking up 
+      coders club to attend. I think it would be nice if it had some content that people (member and non 
+      members) could come back to enjoy. I would like it to express who we are more than with a 
+      statement but with style, as well serve as a playground for club members. I’d like to see changes 
+      made weekly contributed by different members.
     </p>
   </div>
 
