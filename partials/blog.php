@@ -1,47 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>CCSF Coders Club</title>
-
-  <!-- Stylesheet links -->
-  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
-  <link href='style.css' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
-  <!-- Blog specific styles -->
-  <link href='blog.css' rel='stylesheet' type='text/css'>
-  <style>
-    /* Extra styles go here. */
-  </style>
-
-  <script src='//code.jquery.com/jquery-2.1.3.min.js'></script>
-  <script src='script.js'></script>
-
-</head>
-
-<body>
-
-<div class="logo"><img src="img/logo.png"></img></div>
-<!-- Include nav.php partial -->
-<nav class='nav-bar'></nav>
-
-<div class="info-wrapper">
-  <h1>Meeting Times</h1>
-  <div class="info">
-    Thursday, 5PM - 7PM<br>
-    Batmale Hall, Rm 453
-  </div>
-</div>
-
-<div class="quick-links">
-  <a href="https://github.com/CCSF-Coders" target="_blank"><i class="fa fa-github-square"></i></a>
-  <a href="https://facebook.com/ccsfcoders" target="_blank"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://www.youtube.com/user/CCSFCoders" target="_blank"><i class="fa fa-youtube-square"></i></a>
-  <a href="https://groups.google.com/forum/#!forum/ccsfcoders" target="_blank"><i class="fa fa-google"></i></a>
-</div>
-
 <div class="blog">
   <div class="post">
     <h1> New Website </h1>
@@ -108,21 +64,6 @@
     <span style="color:blue;">William Myers Febuary 7th 2015</span>
   </div>
 </div>
-
-<!-- Include nav.php partial -->
-<nav class='nav-bar'></nav>
-
-<script>
-  $.ajax({
-    type: "GET", url: "nav.php",
-    success: function(data) {
-      $('.nav-bar').html(data);
-    }
-  });
-</script>
-
-<script src='quick.js'></script>
-</body>
 
 
 
