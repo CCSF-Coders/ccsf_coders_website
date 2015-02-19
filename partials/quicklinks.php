@@ -1,6 +1,4 @@
 <!-- Begin quicklinks.php -->
-<script src='../scripts/quick.js'></script>
-
 <div class="quick-links">
   <a href="https://github.com/CCSF-Coders" target="_blank"><i class="fa fa-github-square"></i></a>
   <a href="https://facebook.com/ccsfcoders" target="_blank"><i class="fa fa-facebook-official"></i></a>
