@@ -15,7 +15,6 @@ body {
 
 .logo img {
   width: 100%;
-  height: 100%;
 }
 
 .quick-links {
@@ -179,5 +178,15 @@ table.contacts td {
 
 time {
   display: block;
+}
+
+.blog{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.post .body{
+  text-indent: 32px;
+  text-align: left;
 }
 

@@ -1,59 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>CCSF Coders Club</title>
-
-  <!-- Stylesheet links -->
-  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
-  <link href='style.css' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
-  <!-- Blog specific styles -->
-  <link href='blog.css' rel='stylesheet' type='text/css'>
-  <style>
-    /* Extra styles go here. */
-  </style>
-
-  <script src='//code.jquery.com/jquery-2.1.3.min.js'></script>
-  <script src='script.js'></script>
-
-</head>
-
-<body>
-
-<div class="logo"><img src="img/logo.png"></img></div>
-<!-- Include nav.php partial -->
-<nav class='nav-bar'></nav>
-
-<div class="info-wrapper">
-  <h1>Meeting Times</h1>
-  <div class="info">
-    Thursday, 5PM - 7PM<br>
-    Batmale Hall, Rm 453
-  </div>
-</div>
-
-<div class="quick-links">
-  <a href="https://github.com/CCSF-Coders" target="_blank"><i class="fa fa-github-square"></i></a>
-  <a href="https://facebook.com/ccsfcoders" target="_blank"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://www.youtube.com/user/CCSFCoders" target="_blank"><i class="fa fa-youtube-square"></i></a>
-  <a href="https://groups.google.com/forum/#!forum/ccsfcoders" target="_blank"><i class="fa fa-google"></i></a>
-</div>
-
 <div class="blog">
   <div class="post">
     <h1> New Website </h1>
 
     <p class="body">
-    So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
-    the look and feel of the website. With this first blog post I’d like to list what I 
-    hoped to accomplish. Of course the website should be a landing page for anyone who is looking up 
-    coders club to attend. I think it would be nice if it had some content that people (member and non 
-    members) could come back to enjoy. I would like it to express who we are more than with a 
-    statement but with style, as well serve as a playground for club members. I’d like to see changes 
-    made weekly contributed by different members.
+      So we have a new website! Rebuilding it was a learning experience for me and hopefully improved 
+      the look and feel of the website. With this first blog post I'd like to list what I 
+      hoped to accomplish. Of course the website should be a landing page for anyone who is looking up 
+      coders club to attend. I think it would be nice if it had some content that people (member and non 
+      members) could come back to enjoy. I would like it to express who we are more than with a 
+      statement but with style, as well serve as a playground for club members. I'd like to see changes 
+      made weekly contributed by different members.
     </p>
   </div>
 
@@ -62,7 +18,7 @@
     <p class="body">
       The blog is self explanatory. Basically I think every member should. Be able to create blog posts, 
       the content of which can be anything they want and occasionally outlining what were doing as a organisation, 
-      for example I’m sure there would be a post about open hatch after it happens. 
+      for example I'm sure there would be a post about open hatch after it happens. 
 
       How it will work technically has yet to be determined. Kevin and I plan to build a web based blog 
       application, where you can post in a form like you would post to Tumblr, or Wordpress. And I don't particularly 
@@ -75,7 +31,7 @@
   <div class="post">
     <h2>The Toy Box</h2>
     <p class="body">
-      The Toy Box is my favorite idea I’ve had for the website. Basically the point is to provide a place 
+      The Toy Box is my favorite idea I've had for the website. Basically the point is to provide a place 
       for Club members to showcase the projects they have worked on. What differentiates it from the blog 
       is that, it isn't just going to talk about the things we have made, its going have them 
       accessible for you to play with. 
@@ -108,21 +64,6 @@
     <span style="color:blue;">William Myers Febuary 7th 2015</span>
   </div>
 </div>
-
-<!-- Include nav.php partial -->
-<nav class='nav-bar'></nav>
-
-<script>
-  $.ajax({
-    type: "GET", url: "nav.php",
-    success: function(data) {
-      $('.nav-bar').html(data);
-    }
-  });
-</script>
-
-<script src='quick.js'></script>
-</body>
 
 
 
