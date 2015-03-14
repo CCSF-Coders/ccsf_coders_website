@@ -24,6 +24,21 @@ Partials (located under /partials/ directory) are files that are some portion of
 
 The philosophy is to make it trivial to re-use as many elements that make up our main pages as possible. For example: this structure allows us to have one navigation.php that we can re-use on every single page.
 
+Local developing of the website
+===============
+
+This website uses PHP, as described above. A developer may find that if you open the .html files in your browser by dragging and dropping, the PHP files 'don't work.' This is because we are using PHP as a server side scripting HTML pre-processor, and a developer's browser does not know what to do with the .php files.
+
+But, a developer want to develop the website using PHP is on Hills (CCSF's server). What do?
+
+######Long way (but interesting, if your into Virtual Machines and/or Vagrant): 
+Follow the instructions on our repo at https://github.com/CCSF-Coders/vagrant-apache-php
+######Short way: 
+In PHP 5.4 and above you may run this in your console to start a simple php webserver:
+
+    $ php -S localhost:8000
+
+Thanks, and find out more, to this StackOverflow post: http://stackoverflow.com/a/4302028/3494646
 
 Developer Notes
 ===============
@@ -72,4 +87,3 @@ Proper comments should be used where needed.
 
 This website is currently under construction and desires various graphical
 and formatting improvements.
-
