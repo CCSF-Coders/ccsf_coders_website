@@ -40,6 +40,15 @@ In PHP 5.4 and above you may run this in your console to start a simple php webs
 
 Thanks, and find out more, to this StackOverflow post: http://stackoverflow.com/a/4302028/3494646
 
+Testing
+===============
+
+Unit tests are currently availiable for the main page. The tests use Selenium's python bindings, so one would need to `pip install selenium`, preferably in a virtualenv, before running the tests. 
+
+To run the tests, `cd` into the tests/ directory and run 
+
+    python basictests.py
+
 Developer Notes
 ===============
 
