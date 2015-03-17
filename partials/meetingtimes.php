@@ -1,7 +1,7 @@
 <!-- Begin meetingtimes.php -->
-<div class="info-wrapper">
+<div class="info-wrapper" id="meetingtimes">
   <h1>Meeting Times</h1>
-  <div class="info">
+  <div class="info" id="meetingrooms">
     Thursday, 5PM - 7PM<br>
     Batmale Hall, Rm 453
   </div>
