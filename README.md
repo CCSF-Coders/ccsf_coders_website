@@ -1,4 +1,4 @@
-New-CCSF-Website
+CCSF Coders Club Website
 ================
 
 This project was started to recreate the CCSF Coders' Club website in an
