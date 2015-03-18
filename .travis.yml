@@ -4,9 +4,11 @@ python:
 virtualenv:
   system_site_package: true
 before_install:
-  - git clone https://github.com/CCSF-Coders/vagrant-apache-php
+  - sudo apt-get install -y curl
   - sudo apt-get install -y virtualbox
-  - sudo apt-get install -y vagrant
+  - curl https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
+  - sudo dpkg -i vagrant_*.deb
+  - sudo apt-get install -y virtualbox-dkms
   - cd vagrant-apache-php
   - vagrant up
 install: pip install stable-req.txt
