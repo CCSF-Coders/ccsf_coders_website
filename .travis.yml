@@ -6,8 +6,8 @@ virtualenv:
 before_install:
   - sudo apt-get install -y curl
   - sudo apt-get install -y virtualbox
-  - curl https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
-  - sudo dpkg -i vagrant_*.deb
+  - curl -O https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
+  - sudo dpkg -i vagrant_1.7.2_x86_64.deb
   - sudo apt-get install -y virtualbox-dkms
   - cd vagrant-apache-php
   - vagrant up
