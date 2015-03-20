@@ -40,18 +40,27 @@ In PHP 5.4 and above you may run this in your console to start a simple php webs
 
 Thanks, and find out more, to this StackOverflow post: http://stackoverflow.com/a/4302028/3494646
 
-Testing
+Testing & Continuous Integration
 ===============
 
-Unit tests are currently availiable for the main page. The tests use Selenium's python bindings, so one would need to `pip install selenium`, preferably in a virtualenv, before running the tests. 
+Automated testing with Travis CI is here! You can [view our build history by clicking here.](https://travis-ci.org/CCSF-Coders/ccsf_coders_website)
+
+###How does Travis CI work?
+When a push or pull request is made to this repo, Travis CI will know. Travis CI will then spin up a virtual machine on their servers, run our tests and report back how it went. 
+
+###Manually run the tests
+Please note that the current tests use Selenium's python bindings, so one would need to 
+`pip install selenium`
+preferably in a virtualenv, before running the tests. 
 
 To run the tests, `cd` into the tests/ directory and run 
 
-    python basictests.py
+    python basictests.py -v
 
 Developer Notes
 ===============
 
+###Conventions
 Some boilerplate notes: project wide, let's use the same tabbing convention
 
 * Tab size: 2
@@ -80,6 +89,7 @@ For example
       Hello, World.
     </p>
 
+###Organization
 Keep javascript files in /scripts/
 
 Note: Please locate any non-trivial javascript files under /scripts/ and load them into header.php. That way we dont have to run around looking for where a piece of javascript is loaded in some 3rd level partial.
@@ -92,7 +102,5 @@ Keep partials (html files that are a part of a bigger template) in /partials/
 
 Keep templates (php files that combine multiple partials) in /templates/
 
-Proper comments should be used where needed.
-
-This website is currently under construction and desires various graphical
-and formatting improvements.
+###Commenting
+Dont forget, please :)
