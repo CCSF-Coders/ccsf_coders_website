@@ -7,19 +7,19 @@
       <tr><td>Name</td><td>Title</td><td>Link</td></tr>
     </thead>
     <tbody>
-      <tr>
+      <tr id='contacts-president'>
         <td>Tyler Brothers</td>
         <td>President</td>
         <td><a href="mailto:tylerbrothers1%40gmail.com">tylerbrothers1@gmail.com</a></td>
       </tr>
-      <tr>
+      <tr id='contacts-advisor'>
         <td>Craig Persiko</td>
         <td>Advisor</td>
         <td>
           <a href="http://fog.ccsf.edu/~cpersiko">Personal Website</a>
         </td>
       </tr>
-      <tr>
+      <tr id='contacts-treasurer'>
         <td>Kevin Morris</td>
         <td>Treasurer</td>
         <td>
@@ -44,7 +44,7 @@
     <tbody>
       <tr><td>Forum</td><td><a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group</a></td></tr>
       <tr><td>Chat</td><td><a href="https://www.nixcode.us/irc" target="_blank">IRC</a></td></tr>
-      <tr><td>Email</td><td><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></td></tr>
+      <tr id='contacts-codersemail'><td>Email</td><td><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></td></tr>
     </tbody>
   </table>
 </div>
