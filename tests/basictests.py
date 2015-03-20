@@ -4,7 +4,7 @@ from selenium import webdriver
 class TestCodersMainPage(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get('localhost:6969')
+        self.driver.get('localhost:80')
 
     def test_SocialMediaLinksPresent(self):
         linkToGitHub = self.driver.find_elements_by_id('social-github')
@@ -59,5 +59,4 @@ class TestCodersMainPage(unittest.TestCase):
         self.driver.close()
 
 if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCodersMainPage)
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    unittest.main()
