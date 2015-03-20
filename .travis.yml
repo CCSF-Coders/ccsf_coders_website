@@ -11,10 +11,7 @@ before_script:
   - sudo apt-get install -y apache2 libapache2-mod-php5
   - a2enmod php5
   - sudo service apache2 restart
-  - cd /var/www
-  - sudo rm -rf *
-  - sudo git init
-  - sudo git remote add origin https://github.com/CCSF-Coders/ccsf_coders_website
-  - sudo git pull origin master
+  - sudo rm -rf /var/www/*
+  - sudo git clone https://github.com/possibly/ccsf_coders_website.git /var/www
 install: "pip install -r tests/stable-req.txt"
 script:  "python tests/basictests.py"
