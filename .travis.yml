@@ -4,14 +4,10 @@ python:
 virtualenv:
   system_site_package: true
 before_script:
-  - sudo apt-get update
-  - sudo apt-get install -y apache2 libapache2-mod-php5
-  - a2enmod php5
-  - sudo service apache2 restart
-  - cd /var/www
-  - sudo rm -rf *
-  - git init
-  - git remote add origin https://github.com/CCSF-Coders/ccsf_coders_website
-  - git pull origin master
+  - gem install vagrant
+  - sudo apt-get install -y virtualbox
+  - git clone https://github.com/CCSF-Coders/vagrant-apache-php
+  - cd vagrant-apache-php
+  - vagrant up
 install: pip install -r tests/stable-req.txt
 script:  "sh -e /etc/init.d/xvfb run python tests/basictests.py"
