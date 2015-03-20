@@ -3,8 +3,8 @@ python:
   - "2.7"
 virtualenv:
   system_site_package: true
-before_install:
-  - sudo apt-get install -y git
+before_script:
+  - sudo apt-get update
   - sudo apt-get install -y apache2
   - sudo apt-get install -y libapache2-mod-php5
   - a2enmod php5
@@ -15,4 +15,4 @@ before_install:
   - git remote add origin https://github.com/CCSF-Coders/ccsf_coders_website
   - git pull origin master
 install: pip install tests/stable-req.txt
-script:  python tests/basictests.py
+script:  "sh -e /etc/init.d/xvfb run python tests/basictests.py"
