@@ -13,6 +13,5 @@ before_script:
   - sudo service apache2 restart
   - sudo rm -rf /var/www/*
   - sudo git clone https://github.com/possibly/ccsf_coders_website.git /var/www
-  - sleep 3
 install: "pip install -r tests/stable-req.txt"
 script:  "python tests/basictests.py"

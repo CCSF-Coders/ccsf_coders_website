@@ -4,7 +4,7 @@ from selenium import webdriver
 class TestCodersMainPage(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get('localhost:6969')
+        self.driver.get('localhost:80')
 
     def test_SocialMediaLinksPresent(self):
         linkToGitHub = self.driver.find_elements_by_id('social-github')
