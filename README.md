@@ -20,7 +20,7 @@ Due to a problem with the hills server (where we host the coders club website), 
 
 Templates (located under /templates/ directory) are php files that are collections of partials. They are what is typically understood to be the web page. If you load ccsf.edu/coders, you will be redirected to ccsf.edu/coders/templates/index.php, and the totality of what you see is considered to be the 'template.' We used PHP's require_once() method to collect multiple partials into one bundle.
 
-Partials (located under /partials/ directory) are files that are some portion of a template. A good example of a partial is the <head> section of the coders website is a partial called header.php. The template index.php calls header.php via require_once(), and header.php in turn calls navigation.php as well as loading some scripts and styles. So, a partial is a file that can be made up of smaller partials, as well as including javascript or styles as needed.
+Partials (located under /partials/ directory) are files that are some portion of a template. A good example of a partial is the `<head>` section of the coders website is a partial called header.php. The template index.php calls header.php via require_once(), and header.php in turn calls navigation.php as well as loading some scripts and styles. So, a partial is a file that can be made up of smaller partials, as well as including javascript or styles as needed.
 
 The philosophy is to make it trivial to re-use as many elements that make up our main pages as possible. For example: this structure allows us to have one navigation.php that we can re-use on every single page.
 
@@ -31,9 +31,9 @@ This website uses PHP, as described above. A developer may find that if you open
 
 But, a developer want to develop the website using PHP is on Hills (CCSF's server). What do?
 
-######Long way (but interesting, if your into Virtual Machines and/or Vagrant): 
+###Long way (but interesting, if your into Virtual Machines and/or Vagrant): 
 Follow the instructions on our repo at https://github.com/CCSF-Coders/vagrant-apache-php
-######Short way: 
+###Short way: 
 In PHP 5.4 and above you may run this in your console to start a simple php webserver:
 
     $ php -S localhost:8000
