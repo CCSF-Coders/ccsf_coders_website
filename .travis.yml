@@ -4,9 +4,9 @@ python:
 virtualenv:
   system_site_package: true
 before_install:
-  - apt-get install -y git
-  - apt-get install -y apache2
-  - apt-get install -y libapache2-mod-php5
+  - sudo apt-get install -y git
+  - sudo apt-get install -y apache2
+  - sudo apt-get install -y libapache2-mod-php5
   - a2enmod php5
   - service apache2 restart
   - cd /var/www
