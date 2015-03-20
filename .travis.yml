@@ -14,4 +14,4 @@ before_script:
   - sudo git remote add origin https://github.com/CCSF-Coders/ccsf_coders_website
   - sudo git pull origin master
 install: pip install -r tests/stable-req.txt
-script:  "sh -e /etc/init.d/xvfb run python tests/basictests.py"
+script:  "sh -e /etc/init.d/xvfb-run python tests/basictests.py"
