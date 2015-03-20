@@ -1,4 +1,4 @@
-CCSF Coders Club Website
+CCSF Coders Club Website [![Build Status](https://travis-ci.org/CCSF-Coders/ccsf_coders_website.svg)](https://travis-ci.org/CCSF-Coders/ccsf_coders_website)
 ================
 
 This project was started to recreate the CCSF Coders' Club website in an
