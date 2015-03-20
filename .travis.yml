@@ -3,6 +3,9 @@ python:
   - "2.7"
 virtualenv:
   system_site_package: true
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
 before_script:
   - sudo apt-get update
   - sudo apt-get install -y apache2 libapache2-mod-php5
@@ -13,5 +16,5 @@ before_script:
   - sudo git init
   - sudo git remote add origin https://github.com/CCSF-Coders/ccsf_coders_website
   - sudo git pull origin master
-install: pip install -r tests/stable-req.txt
-script:  "sh -e /etc/init.d/xvfb-run python tests/basictests.py"
+install: "pip install -r tests/stable-req.txt"
+script:  "python tests/basictests.py"
