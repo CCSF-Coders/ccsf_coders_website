@@ -59,5 +59,4 @@ class TestCodersMainPage(unittest.TestCase):
         self.driver.close()
 
 if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCodersMainPage)
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    unittest.main()
