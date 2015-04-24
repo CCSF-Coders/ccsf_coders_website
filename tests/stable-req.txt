@@ -1,1 +1,2 @@
+pytest==2.7.0
 selenium==2.45.0
