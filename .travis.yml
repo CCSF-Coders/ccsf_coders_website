@@ -11,6 +11,6 @@ before_script:
   - a2enmod php5
   - sudo service apache2 restart
   - sudo rm -rf /var/www/*
-  - mv . /var/www
+  - sudo mv . /var/www
 install: "pip install -r tests/stable-req.txt"
 script:  "py.test -s tests/test_basic.py"
