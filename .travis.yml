@@ -3,15 +3,14 @@ python:
   - "2.7"
 virtualenv:
   system_site_package: true
-before_install:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
 before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
   - sudo apt-get update
   - sudo apt-get install -y apache2 libapache2-mod-php5
   - a2enmod php5
   - sudo service apache2 restart
   - sudo rm -rf /var/www/*
-  - sudo git clone https://github.com/possibly/ccsf_coders_website.git /var/www
+  - mv . /var/www
 install: "pip install -r tests/stable-req.txt"
-script:  "python tests/basictests.py -v"
+script:  "py.test -s tests/test_basic.py"
