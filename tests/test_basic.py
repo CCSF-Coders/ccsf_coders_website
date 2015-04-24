@@ -38,7 +38,7 @@ class TestMainPage:
     assert 'nav-home' in homeLink.get_attribute('id')
 
     eventsLink = self.driver.find_element_by_id('nav-events')
-    assert 'nav-events' in eventsLink.get_attribute('id')assert 
+    assert 'nav-events' in eventsLink.get_attribute('id') 
 
     contactLink = self.driver.find_element_by_id('nav-contact')
     assert 'nav-contact' in contactLink.get_attribute('id')
