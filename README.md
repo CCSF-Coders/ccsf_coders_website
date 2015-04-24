@@ -9,9 +9,9 @@ Club.
 Git Involved
 ===============
 
-Trello is a common project management tool, and one we are attempting to use. [Click here to see what we have planned for the website, or give you some idea's of what you can contribute.](https://trello.com/b/VoEhp0kn/ccsf-edu-coders)
+Check the issues page. We have tagged various issues as 'beginner-friendly' to encourage beginners coders to contribute!
 
-You can always ask for help on our Google Group, [located here.](https://groups.google.com/forum/#!forum/ccsfcoders)
+You can always ask for help on our Google Group, [located here.](https://groups.google.com/forum/#!forum/ccsfcoders).
 
 Understanding the structure of the website
 ===============
