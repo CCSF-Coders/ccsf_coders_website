@@ -6,9 +6,9 @@ before_install:
   - sh -e /etc/init.d/xvfb start
   - sudo apt-get update
   - sudo apt-get install -y apache2
-  - sudo ln -fsn . /var/www
   - sudo apt-get install -y libapache2-mod-php5
   - sudo a2enmod php5
   - sudo service apache2 restart
+  - sudo ln -fs . /var/www
 install: "pip install -r tests/stable-req.txt"
 script:  "py.test -s tests/test_basic.py"
