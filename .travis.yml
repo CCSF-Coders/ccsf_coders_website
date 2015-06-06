@@ -4,9 +4,8 @@ python:
 before_install:
   - sudo apt-get update > /dev/null
   - sudo apt-get install -y --force-yes apache2 libapache2-mod-php5
-  - sudo a2enmod php5
-  - sudo service apache2 restart
-  - sudo ln -fs $(pwd)/* /var/www
+  - sudo sed -i -e "s,/var/www,$(pwd),g" /etc/apache2/sites-available/default
+  - sudo /etc/init.d/apache2 restart
   - "sh -e /etc/init.d/xvfb start"
   - "export DISPLAY=:99.0"
   - sudo curl -o /dev/null localhost:80
