@@ -1,7 +1,11 @@
+from pyvirtualdisplay import Display
 from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
+    display = Display(visible=0, size=(800,600))
+    display.start()
+
     self.driver = webdriver.Firefox()
     # localhost 6969 for local, default Vagrant environment development.
     try:
