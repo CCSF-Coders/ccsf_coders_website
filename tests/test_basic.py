@@ -1,10 +1,12 @@
-from pyvirtualdisplay import Display
+#!/usr/bin/env python
+
+from xvfbwrapper import Xvfb
 from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    display = Display(visible=0, size=(800,600))
-    display.start()
+    self.vdisplay = Xvfb()
+    self.vdisplay.start()
 
     self.driver = webdriver.Firefox()
     # localhost 6969 for local, default Vagrant environment development.
