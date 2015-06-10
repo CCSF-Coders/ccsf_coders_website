@@ -2,12 +2,7 @@ language: python
 python:
   - "2.7"
 before_install:
-  - sudo apt-get update > /dev/null
-  - sudo apt-get install -y --force-yes apache2 libapache2-mod-php5 firefox
-  - sudo a2enmod php5
-  - sudo service apache2 restart
-  - sudo rm -rf /var/www
-  - sudo ln -fs $(pwd) /var/www
+  - php -S localhost:8000
   - "sh -e /etc/init.d/xvfb start"
   - "export DISPLAY=:99.0"
 install: "pip install -r tests/stable-req.txt"
