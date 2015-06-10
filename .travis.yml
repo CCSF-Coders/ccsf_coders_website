@@ -2,7 +2,9 @@ language: python
 python:
   - "2.7"
 before_install:
+  - sudo add-apt-repository ppa:ondrej/php5-5.6
   - sudo apt-get update > /dev/null
+  - sudo apt-get upgrade
   - sudo apt-get install php5
   - sudo php -S localhost:8000
   - "sh -e /etc/init.d/xvfb start"
