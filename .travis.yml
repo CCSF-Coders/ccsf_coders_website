@@ -3,7 +3,7 @@ python:
   - "2.7"
 before_install:
   - sudo apt-get update > /dev/null
-  - sudo apt-get install php5-common
+  - sudo apt-get install php5
   - sudo php -S localhost:8000
   - "sh -e /etc/init.d/xvfb start"
   - "export DISPLAY=:99.0"
