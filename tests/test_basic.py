@@ -11,10 +11,10 @@ class TestMainPage:
     self.driver = webdriver.Firefox()
     # localhost 6969 for local, default Vagrant environment development.
     try:
-        self.driver.get('localhost:6969')
+        self.driver.get('http://localhost:6969/templates/index.php')
     # otherwise, try the standard port 80.
     except Exception, e:
-        self.driver.get('localhost:80')
+        self.driver.get('http://localhost:80/templates/index.php')
 
   def test_SocialMediaLinksPresent(self):
     linkToGitHub = self.driver.find_element_by_id('social-github')
