@@ -7,24 +7,26 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8 text-center">
       <h1>Our History</h1>
-      <p>The Coder's Club has had a long and successful journey at CCSF. Since our conception in 2012.
-         We have held weekly meetings for 5 semesters where we focus on tech news around the globe, share
-         the projects we are working on with other students and team up to solve coding challenges. We focus
-         on being very inclusive to anyone potentially interested in tech-related stuff. We do not narrow
+      <p>The Coder's Club has had a long and successful journey at CCSF. Since our conception in 2012,
+         we have held weekly meetings for 5 semesters where we share tech news around the globe,
+         the projects we are working on with other students and teaming up to solve coding challenges. We focus
+         on being as inclusive as possible to anyone potentially interested in tech-related stuff. We do not narrow
          our focus to any certain type of programming, programming in general or getting work in the industry.
          An interest is all that is "required" to show up to our weekly meetings.</p>
     </div>
     <div class="col-lg-2"></div>
   </div>
   <div class="row">
-    <div class="col-lg-6 text-center">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-4 text-center">
       <h1>< 5 ></h1>
       <h2>Active Semesters</h2>
     </div>
-    <div class="col-lg-6 text-center">
+    <div class="col-lg-4 text-center">
       <h1>< 3 ></h1>
       <h2>Campus Wide Events</h2>
     </div>
+    <div class="col-lg-2"></div>
   </div>
   <div class="row">
     <div class="col-lg-2"></div>
