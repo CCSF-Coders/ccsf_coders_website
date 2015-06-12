@@ -1,0 +1,20 @@
+html body {
+  background-color: black;
+}
+
+h1 {
+  color: #00FF00;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #00FF00;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  padding-bottom: 60px;
+}
+
+nav.nav-bar{
+  font-size: 16px;
+  line-height: 2;
+}

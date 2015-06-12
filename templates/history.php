@@ -5,6 +5,8 @@ $templateDirectory = '../partials/';
 
 require_once($templateDirectory.'header.php');
 
+require_once($templateDirectory.'historycontent.php');
+
 require_once($templateDirectory.'footer.php'); 
 
 ?>
