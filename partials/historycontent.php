@@ -4,8 +4,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2"></div>
-    <div class="col-lg-8 text-center">
+    <div class="col-lg-12 text-center">
       <h1>Our History</h1>
       <p>The Coder's Club has had a long and successful journey at CCSF. Since our conception in 2012,
          we have held weekly meetings for 5 semesters where we share tech news around the globe,
@@ -14,23 +13,19 @@
          our focus to any certain type of programming, programming in general or getting work in the industry.
          An interest is all that is "required" to show up to our weekly meetings.</p>
     </div>
-    <div class="col-lg-2"></div>
   </div>
   <div class="row">
-    <div class="col-lg-2"></div>
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-6 text-center">
       <h1>< 5 ></h1>
       <h2>Active Semesters</h2>
     </div>
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-6 text-center">
       <h1>< 3 ></h1>
       <h2>Campus Wide Events</h2>
     </div>
-    <div class="col-lg-2"></div>
   </div>
   <div class="row">
-    <div class="col-lg-2"></div>
-    <div class="col-lg-8 text-center">
+    <div class="col-lg-12 text-center">
       <p>
         The Campus Wide Events we hold at CCSF is one of our favorite things we do as a club. We partner with
         the non-profit <a href="#">OpenHatch</a> to provide a full Saturday packed with food, learning how to
@@ -41,7 +36,6 @@
         We are always looking for more events to host or sponsor. Please get in contact with us if you have an idea or plan!
       </p>
     </div>
-    <div class="col-lg-2"></div>
   </div>
 </div>
 <!-- End historycontent.php -->
