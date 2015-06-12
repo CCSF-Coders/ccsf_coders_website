@@ -28,7 +28,7 @@
     <div class="col-lg-12 text-center">
       <p>
         The Campus Wide Events we hold at CCSF is one of our favorite things we do as a club. We partner with
-        the non-profit <a href="#">OpenHatch</a> to provide a full Saturday packed with food, learning how to
+        the non-profit <a href="http://blog.openhatch.org/">OpenHatch</a> to provide a full Saturday packed with food, learning how to
         contribute real open source projects and meeting local bay area open source hackers. Some of the regular
         hackers that show up are from prestigious groups like Mozilla and Ubuntu, among others.
       </p>
