@@ -17,7 +17,8 @@
       </p>
       <p>
         Anyone can participate in challenges, including non-club members! As Drew Carey says "Everything is made up,
-        and the points don't matter!"
+        and the points don't matter!" To participate, feel free to join us on the Google Group and make a new thread
+        with your answer.
       </p>
     </div>
   </div>
