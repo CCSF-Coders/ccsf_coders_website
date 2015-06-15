@@ -65,3 +65,21 @@ p{
 .card-container button{
     margin-top:20px;
 }
+
+.card-container a{
+    background: white;
+    color: black;
+}
+
+.card-container a:hover{
+    background: lightblue;
+    text-decoration: none;
+}
+
+.card-container button a{
+    background: none;
+}
+
+.card-container button a:hover{
+    background: none;
+}
