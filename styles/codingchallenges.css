@@ -1,0 +1,46 @@
+html body {
+  background-color: black;
+  color: #00FF00;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  line-height: 1;
+}
+
+h1 {
+  color: #00FF00;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #00FF00;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+}
+
+nav.nav-bar{
+  font-size: 16px;
+  line-height: 2;
+}
+
+p{
+  font-size: 16px;
+}
+
+#meetingtimes h1{
+  margin-bottom: 10px;
+}
+
+.btn{
+    webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+    border: none;
+    border-radius: 0px;
+}
+
+.btn a{
+    color: black;
+}
+
+.btn a:hover{
+    text-decoration: none;
+}
