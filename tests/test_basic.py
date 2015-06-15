@@ -4,7 +4,7 @@ from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.PhantomJS()
+    self.driver = webdriver.Firefox()
     self.driver.set_window_size(1120, 550)
     # localhost 6969 for local, default Vagrant environment development.
     try:
