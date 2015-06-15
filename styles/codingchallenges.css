@@ -44,3 +44,24 @@ p{
 .btn a:hover{
     text-decoration: none;
 }
+
+.card-title{
+    background-color:#00FF00;
+}
+
+.card-title h2{
+    color:black;
+}
+
+.card-content{
+    background-color:#00FF00;
+    padding:20px;
+}
+
+.card-content p{
+    color:black;
+}
+
+.card-container button{
+    margin-top:20px;
+}

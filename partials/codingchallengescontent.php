@@ -28,23 +28,23 @@
   </div>
   <div class="row">
     <div class="col-lg-4 card-container">
-      <div style="background-color:#00FF00;" class="text-center">
-        <h2 style="color:black;">2+2=5</h2>
+      <div class="card-title text-center">
+        <h2>2+2=5</h2>
       </div>
-      <div style="background-color:#00FF00;padding:20px;" class="text-center">
-        <p style="color:black;">
+      <div class="card-content text-center">
+        <p>
           Write code in any language you like that makes it look like you are adding 2+2 but the evaluation 
           of your code outputs 5. The goal is to make the code hide the fact that its manipulating the answer 
           to be 5. The trickier and more subtle your code is, the better.
         </p>
         <div class="row">
           <div class="col-lg-6">
-            <button type="button" class="btn btn-default btn-lg" style="margin-top:20px;">
+            <button type="button" class="btn btn-default btn-lg">
               <a href="https://groups.google.com/forum/#!searchin/ccsfcoders/coding$20challenge/ccsfcoders/f-s5k5BvNh4/BUJSZRkegAkJ">Discussion</a>
             </button>
           </div>
           <div class="col-lg-6">
-            <button type="button" class="btn btn-default btn-lg" style="margin-top:20px;">
+            <button type="button" class="btn btn-default btn-lg">
               <a href="http://code.runnable.com/u/codersclub">Submissions</a>
             </button>
           </div>
