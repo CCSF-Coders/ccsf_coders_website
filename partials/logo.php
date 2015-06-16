@@ -1,5 +1,7 @@
 <!-- Begin logo.php -->
-<div class="logo">
-	<img src="../img/logo.png"></img>
+<div class="row">
+  <div class="col-lg-12">
+    <img src="../img/logo.png" class="logo"></img>
+  </div>
 </div>
 <!-- End logo.php -->
