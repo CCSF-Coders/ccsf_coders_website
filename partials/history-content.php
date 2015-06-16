@@ -1,7 +1,4 @@
 <!-- Begin historycontent.php -->
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../styles/history.css">
-
 <div class="container">
   <div class="row">
     <div class="col-lg-12 text-center">
@@ -24,7 +21,7 @@
       <h2>Campus Wide Events</h2>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="margin-top:60px;">
     <div class="col-lg-12 text-center">
       <p>
         The Campus Wide Events we hold at CCSF is one of our favorite things we do as a club. We partner with
