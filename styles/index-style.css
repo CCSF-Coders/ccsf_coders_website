@@ -1,0 +1,12 @@
+/* Contact styling */
+#contact .titles p{
+  background-color: #00FF00;
+  color: black;
+}
+
+@media (max-width:650px){ /* Some breakpoints for mobile on the contact menu */
+  #contact{
+    min-width: 650px;
+    margin-left: -100px;
+  }
+}
