@@ -8,8 +8,6 @@ before_install:
   - sudo service apache2 restart
   - sudo rm -rf /var/www
   - sudo ln -fs $(pwd) /var/www
-  - curl "http://localhost:80/templates/index.php"
   - cd /var/www
-  - ls
 install: "pip install -r tests/stable-req.txt"
 script:  "py.test -s tests/test_basic.py"

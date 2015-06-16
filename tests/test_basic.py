@@ -1,11 +1,9 @@
-#!/usr/bin/env python
-
 from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.Firefox()
-    self.driver.set_window_size(1120, 550)
+    self.driver = webdriver.PhantomJS()
+
     # localhost 6969 for local, default Vagrant environment development.
     try:
         self.driver.get('http://localhost:6969/templates/index.php')
