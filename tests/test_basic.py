@@ -2,8 +2,8 @@ from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.PhantomJS('phantomjs')
-    self.driver.get('http://localhost:6969/templates/index.php')
+    self.driver = webdriver.PhantomJS()
+    self.driver.get('http://localhost:80/templates/index.php')
 
   def test_SocialMediaLinksPresent(self):
     self.driver.find_element_by_id('social-github').is_displayed()
