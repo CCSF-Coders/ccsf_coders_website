@@ -3,7 +3,7 @@ from selenium import webdriver
 class TestMainPage:
   def setup(self):
     self.driver = webdriver.PhantomJS()
-    driver.implicitly_wait(10)
+    self.driver.implicitly_wait(10)
 
     # localhost 6969 for local, default Vagrant environment development.
     try:
