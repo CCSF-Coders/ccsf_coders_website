@@ -24,6 +24,7 @@
     require_once($templateDirectory.'logo.php');
     require_once($templateDirectory.'nav.php');
     require_once($templateDirectory.'quicklinks.php');
+    require_once($templateDirectory.'meetingtimes.php');
 
   ?>
 
