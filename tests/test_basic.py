@@ -1,8 +1,12 @@
 from selenium import webdriver
+from pyvirtualdisplay import Display
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.PhantomJS()
+    self.display = Display(visible=0, size=(1024,768))
+    self.display.start()
+
+    self.driver = webdriver.Firefox()
 
     # localhost 6969 for local, default Vagrant environment development.
     try:
@@ -69,3 +73,4 @@ class TestMainPage:
 
   def teardown(self):
     self.driver.close()
+    self.display.stop()
