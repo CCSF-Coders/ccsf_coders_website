@@ -1,15 +1,31 @@
 <!-- Begin nav.php -->
-<nav class='nav-bar'>
-  <ul class='nav-list-wrapper'>
+<div class="row">
+  <div class="col-lg-12">
+    <nav class="text-center">
 
-    <li onclick="link('index.php', false)" id='nav-home'>Home</li>
-    <li onclick="link('index.php#events', false)" id='nav-events'>Events</li>
-    <li onclick="link('index.php#contact', false)" id='nav-contact'>Contact</li>
-    <li onclick="link('history.php', false)" id='nav-history'>History</li>
-    <li onclick="link('codingchallenges.php', false)" id='nav-codingchallenges'>Coding Challenges</li>
-    <li onclick="link('blog.php', false)" id='nav-blog'>Blog</li>
-    <li onclick="link('https://www.nixcode.us/irc', true)" id='nav-irc'>IRC</li>
+        <button type="button" class="btn btn-lg">
+          <a href="index.php" id='nav-home'>Home</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="index.php#events" id='nav-events'>Events</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="index.php#contact" id='nav-contact'>Contact</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="history.php" id='nav-history'>History</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="codingchallenges.php" id='nav-codingchallenges'>Coding Challenges</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="blog.php" id='nav-blog'>Blog</a>
+        </button>
+        <button type="button" class="btn btn-lg">
+          <a href="https://www.nixcode.us/irc" id='nav-irc' target="_blank">IRC</a>
+        </button>
 
-  </ul>
-</nav>
+    </nav>
+  </div>
+</div>
 <!-- End nav.php -->
