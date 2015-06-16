@@ -30,4 +30,4 @@
 
 </head>
 
-<!-- End header.php
+<!-- End header.php -->
