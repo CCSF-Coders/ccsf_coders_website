@@ -5,16 +5,17 @@
   <title>CCSF Coders Club</title>
 
   <!-- Styles begin-->
-  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
-  <link href='../styles/style.css' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap is the CSS/JavaScript framework that helps us to be mobile-first. -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Font Awesome is for the icons on the sidebar. -->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
+    <!-- This is the font we chose to use across the board. -->
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
+    <!-- This is the stylesheet we want to apply everywhere. -->
+    <link href='../styles/style.css' rel='stylesheet' type='text/css'>
   <!-- Styles end -->
 
-  <!-- Scripts begin-->
-  <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
-  <script src='../scripts/link.js' type="text/javascript"></script>
-  <script src='../scripts/quick.js' type="text/javascript"></script>
-  <!-- Scripts end -->
+  <!-- Scripts are found in the footer.php partial -->
 
   <?php 
 
@@ -27,4 +28,5 @@
   ?>
 
 </head>
-<!-- End header.php -->
+
+<!-- End header.php
