@@ -2,15 +2,8 @@ from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.PhantomJS(service_args=['--ssl-protocol=any'])
-    self.driver.implicitly_wait(10)
-
-    # localhost 6969 for local, default Vagrant environment development.
-    try:
-        self.driver.get('http://localhost:6969/templates/index.php')
-    # otherwise, try the standard port 80.
-    except Exception, e:
-        self.driver.get('http://localhost:80/templates/index.php')
+    self.driver = webdriver.PhantomJS('phantomjs')
+    self.driver.get('http://localhost:80/templates/index.php')
 
   def test_SocialMediaLinksPresent(self):
     linkToGitHub = self.driver.find_element_by_id('social-github')
