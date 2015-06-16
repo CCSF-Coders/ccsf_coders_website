@@ -1,3 +1,7 @@
+<!-- Begin index-content.php -->
+<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
+
+<!-- Welcome text -->
 <div class="container">
   <div class="row">
     <div class="col-lg-12 text-center">
@@ -23,8 +27,9 @@
     </div>
   </div>
 </div>
+<!-- End welcome text -->
 
-<!-- Event calendar and description section -->
+<!-- Event calendar and events section -->
 <div class="container" id="events">
   <div class="row">
     <div class="col-lg-12 text-center">
@@ -39,9 +44,9 @@
     </div>
   </div>
 </div>
+<!-- End calendar and events section -->
 
-<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
-
+<!-- Contact section -->
 <div class="container">
   <!-- Individuals contact -->
   <div class="row">
@@ -95,3 +100,5 @@
   </div>
   <!-- End individuals contact -->
 </div>
+<!-- End contact section -->
+<!-- End index-content.php -->
