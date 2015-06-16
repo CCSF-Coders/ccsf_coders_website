@@ -1,15 +1,18 @@
 <!-- Begin nav.php -->
-<nav class='nav-bar'>
-  <ul class='nav-list-wrapper'>
-
-    <li onclick="link('index.php', false)" id='nav-home'>Home</li>
-    <li onclick="link('index.php#events', false)" id='nav-events'>Events</li>
-    <li onclick="link('index.php#contact', false)" id='nav-contact'>Contact</li>
-    <li onclick="link('history.php', false)" id='nav-history'>History</li>
-    <li onclick="link('codingchallenges.php', false)" id='nav-codingchallenges'>Coding Challenges</li>
-    <li onclick="link('blog.php', false)" id='nav-blog'>Blog</li>
-    <li onclick="link('https://www.nixcode.us/irc', true)" id='nav-irc'>IRC</li>
-
-  </ul>
-</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <nav>
+        <a href="index.php" id='nav-home'>Home</a>
+        <a href="index.php#events" id='nav-events'>Events</a>
+        <a href="index.php#contact" id='nav-contact'>Contact</a>
+        <a href="history.php" id='nav-history'>History</a>
+        <a href="codingchallenges.php" id='nav-codingchallenges'>Coding Challenges</a>
+        <!-- Blog was never finished by William, so Tyler took it off the navigation bar. -->
+        <!-- <a href="blog.php" id='nav-blog'>Blog</a> -->
+        <a href="https://www.nixcode.us/irc" id='nav-irc' target="_blank">IRC</a>
+      </nav>
+    </div>
+  </div>
+</div>
 <!-- End nav.php -->

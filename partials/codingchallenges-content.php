@@ -1,12 +1,10 @@
 <!-- Begin codingchallengescontent.php -->
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../styles/codingchallenges.css">
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../styles/codingchallenges-style.css">
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-12 text-center" style="margin-top: 60px;">
-      <h2>Coding Challenges</h2>
+    <div class="col-lg-12 text-center">
+      <h1>Coding Challenges</h1>
       <p>
         Written by club members and implemented in any language they prefer, coding challenges provide a
         creative outlet for many of our members to invent solutions to atypical problems. The challenges
@@ -23,8 +21,8 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-12 text-center" style="margin-top: 60px;">
-      <h2>Challenge Listing</h2>
+    <div class="col-lg-12 text-center">
+      <h1>Challenge Listing</h1>
     </div>
   </div>
   <!-- 3 coding challenges per row. -->
