@@ -8,5 +8,6 @@ before_install:
   - sudo service apache2 restart
   - sudo rm -rf /var/www
   - sudo ln -fs $(pwd) /var/www
+  - cd /var/www
 install: "pip install -r tests/stable-req.txt"
 script:  "py.test -s tests/test_basic.py"

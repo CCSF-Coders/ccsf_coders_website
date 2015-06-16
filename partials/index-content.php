@@ -60,19 +60,19 @@
         <div class="col-xs-2"><p>Link</p></div>
       </div>
       <!-- Contact 1 -->
-      <div class="row">
+      <div class="row" id="contacts-president">
         <div class="col-xs-2 col-xs-offset-3"><p>TBD</p></div>
         <div class="col-xs-2"><p>President</p></div>
-        <div class="col-xs-2"><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></div>
+        <div class="col-xs-2" id="contacts-codersemail"><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></div>
       </div>
       <!-- Contact 2 -->
-      <div class="row">
+      <div class="row" id="contacts-advisor">
         <div class="col-xs-2 col-xs-offset-3"><p>TBD</p></div>
         <div class="col-xs-2"><p>Advisor</p></div>
         <div class="col-xs-2"><p>TBD</p></div>
       </div>
       <!-- Contact 3 -->
-      <div class="row">
+      <div class="row" id="contacts-treasurer">
         <div class="col-xs-2 col-xs-offset-3"><p>TBD</p></div>
         <div class="col-xs-2"><p>Treasurer</p></div>
         <div class="col-xs-2"><p>TBD</p></div>
