@@ -25,7 +25,7 @@
 </div>
 
 <!-- Event calendar and description section -->
-<div class="container">
+<div class="container" id="events">
   <div class="row">
     <div class="col-lg-12 text-center">
 
