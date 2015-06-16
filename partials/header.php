@@ -12,7 +12,7 @@
     <!-- This is the font we chose to use across the board. -->
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
     <!-- This is the stylesheet we want to apply everywhere. -->
-    <link href='../styles/style.css' rel='stylesheet' type='text/css'>
+    <link href='../styles/header-style.css' rel='stylesheet' type='text/css'>
   <!-- Styles end -->
 
   <!-- Scripts are found in the footer.php partial -->
