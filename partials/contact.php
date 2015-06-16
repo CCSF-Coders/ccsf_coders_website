@@ -1,51 +1,53 @@
 <!-- Begin contact.php -->
-<div class="section" id="contact" >
-  <h1> Get In Touch </h1>
+<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
 
-  <table class="contacts">
-    <thead>
-      <tr><td>Name</td><td>Title</td><td>Link</td></tr>
-    </thead>
-    <tbody>
-      <tr id='contacts-president'>
-        <td>Tyler Brothers</td>
-        <td>President</td>
-        <td><a href="mailto:tylerbrothers1%40gmail.com">tylerbrothers1@gmail.com</a></td>
-      </tr>
-      <tr id='contacts-advisor'>
-        <td>Craig Persiko</td>
-        <td>Advisor</td>
-        <td>
-          <a href="http://fog.ccsf.edu/~cpersiko">Personal Website</a>
-        </td>
-      </tr>
-      <tr id='contacts-treasurer'>
-        <td>Kevin Morris</td>
-        <td>Treasurer</td>
-        <td>
-          <a href="mailto:kmorris7%40mail.ccsf.edu">kmorris7@mail.ccsf.edu</a>
-        </td>
-      </tr>
-      <tr>
-        <td>William Myers</td>
-        <td>Site Developer</td>
-        <td>
-          <a href="mailto:wmyers%40mail.ccsf.edu">wmyers@mail.ccsf.edu</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div class="container" id="contact">
+  <!-- Individuals contact -->
+  <div class="row">
+    <div class="col-lg-12 text-center">
 
-  <br>
-  <table class="contacts">
-    <thead>
-      <tr><td><b>Media</b></td><td><b>Link</b></td></tr>
-    </thead>
-    <tbody>
-      <tr><td>Forum</td><td><a href="http://groups.google.com/group/ccsfcoders" target="_blank">Google Group</a></td></tr>
-      <tr><td>Chat</td><td><a href="https://www.nixcode.us/irc" target="_blank">IRC</a></td></tr>
-      <tr id='contacts-codersemail'><td>Email</td><td><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></td></tr>
-    </tbody>
-  </table>
+      <h1>Get In Touch</h1>
+      <!-- Contact headings -->
+      <div class="row titles">
+        <div class="col-lg-2 col-lg-offset-3"><p>Name</p></div>
+        <div class="col-lg-2"><p>Title</p></div>
+        <div class="col-lg-2"><p>Link</p></div>
+      </div>
+      <!-- Contact 1 -->
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-3"><p>TBD</p></div>
+        <div class="col-lg-2"><p>President</p></div>
+        <div class="col-lg-2"><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></div>
+      </div>
+      <!-- Contact 2 -->
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-3"><p>TBD</p></div>
+        <div class="col-lg-2"><p>Advisor</p></div>
+        <div class="col-lg-2"><p>TBD</p></div>
+      </div>
+      <!-- Contact 3 -->
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-3"><p>TBD</p></div>
+        <div class="col-lg-2"><p>Treasurer</p></div>
+        <div class="col-lg-2"><p>TBD</p></div>
+      </div>
+      <!-- Contact 4 -->
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-3"><p>TBD</p></div>
+        <div class="col-lg-2"><p>Officer</p></div>
+        <div class="col-lg-2"><p>TBD</p></div>
+      </div>
+      <!-- Further contact -->
+      <div class="row" style="margin-top:60px;">
+        <div class="col-lg-12">
+          <p>
+            The best way to get in contact with the group is to join our 
+            <a href="https://groups.google.com/forum/#!forum/ccsfcoders" target="_blank">Google Group!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End individuals contact -->
 </div>
 <!-- End contact.php -->
