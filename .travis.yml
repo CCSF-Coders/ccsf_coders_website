@@ -9,5 +9,6 @@ before_install:
   - sudo rm -rf /var/www
   - sudo ln -fs $(pwd) /var/www
   - cd /var/www
+  - npm install -g phantomjs
 install: "pip install -r tests/stable-req.txt"
 script:  "py.test -s tests/test_basic.py"
