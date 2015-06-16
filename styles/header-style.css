@@ -49,14 +49,15 @@ a:active { /* selected link */
 /* 'Hacker theme' Nav bar styling */
 nav {
   padding-top: 20px;
+  margin-top: -10px; /* Related to line-height of the links inside the nav. Looks better on both non-mobile and mobile */
   font-family: 'Share Tech Mono', Monospace, Courier;
-  padding-bottom: 20px;
 }
 
 nav a:link {
   background: #00FF00;
   border-radius: 0px;
-  margin-bottom: 5px;
+  line-height: 45px; /* Important for mobile! */
+  margin-top: -10px;
   text-decoration: none;
   color: black;
   padding: 10px;
