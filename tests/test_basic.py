@@ -2,7 +2,7 @@ from selenium import webdriver
 
 class TestMainPage:
   def setup(self):
-    self.driver = webdriver.PhantomJS()
+    self.driver = webdriver.PhantomJS(service_args=['--ssl-protocol=any'])
     self.driver.implicitly_wait(10)
 
     # localhost 6969 for local, default Vagrant environment development.
