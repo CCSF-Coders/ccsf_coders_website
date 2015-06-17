@@ -24,6 +24,25 @@ Partials (located under /partials/ directory) are files that are some portion of
 
 The philosophy is to make it trivial to re-use as many elements that make up our main pages as possible. For example: this structure allows us to have one navigation.php that we can re-use on every single page.
 
+Bootstrap Reboot
+===============
+
+[Bootstrap](http://getbootstrap.com/) is a CSS and JavaScript library that helps web pages look nice on a variety of platforms (desktop, mobile, etc.). We use it. It is really helpful to familiarize yourself with the Grid system in particular. There are a number of good resources you can use to familiarize yourself with Bootstrap, get googling!
+
+When editing html, you will notice a lot of funny class names attached to various elements. These class names are usually reserved by Bootstrap, and do a lot of the heavy lifting. For example:
+
+    <div class="container">
+        <div class="row">  
+            <div class="col-lg-12 text-center">
+                <h1>Welcome</h1>
+            </div>
+        </div>
+    </div>
+    
+Each one of those class names are reserved by Bootstrap and help align the content (namely the `<h1>` tag) be perfectly centered on the page, no matter how big or small the screen is! If we were to re-organize the classes to be applied to different elements, the code would <b>NOT</b> work as intended.
+
+When creating new content for the website, try and copy an existing partial and template and begin by modifying them. Keep in mind that when you re-organize and delete elements or classes, things make look drastically different then before!
+
 Local developing of the website
 ===============
 
@@ -36,7 +55,7 @@ Follow the instructions on our repo at https://github.com/CCSF-Coders/vagrant-ap
 ###Short way: 
 In PHP 5.4 and above you may run this in your console to start a simple php webserver:
 
-    $ php -S localhost:8000
+    $ php -S localhost:80
 
 Thanks, and find out more, to this StackOverflow post: http://stackoverflow.com/a/4302028/3494646
 
@@ -49,13 +68,25 @@ Automated testing with Travis CI is here! You can [view our build history by cli
 When a push or pull request is made to this repo, Travis CI will know. Travis CI will then spin up a virtual machine on their servers, run our tests and report back how it went. 
 
 ###Manually run the tests
-Please note that the current tests use Selenium's python bindings, so one would need to 
-`pip install selenium`
-preferably in a virtualenv, before running the tests. 
+The tests use Python and the `py.test` library. You can install all necessary dependences by running
 
-To run the tests, `cd` into the tests/ directory and run 
+    pip install -r stable-req.txt
 
-    python basictests.py -v
+in the `tests/` directory.
+
+The tests also run headlessly by utilizing PhantomJS. You can install PhantomJS using Node's NPM:
+
+    npm install -g phantomjs
+
+To run the tests, first enter the `tests` directory and run:
+
+    py.test -s tests/test_basic.py
+    
+NOTE: The tests are hard-configured to look for the address `http://localhost:80/templates/index.php`. If your webserver is serving at a different address (notice the port number in particular), then you can modify the port the webserver listens on or change this line in the file `test_basic.py`
+
+        self.driver.get('http://localhost:80/templates/index.php')
+        
+to the desired url.
 
 Developer Notes
 ===============
