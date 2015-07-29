@@ -2,8 +2,8 @@
 <div class="info-wrapper" id="meetingtimes">
   <h1>Meeting Times</h1>
   <div class="info" id="meetingrooms">
-    Thursday, 5PM - 7PM<br>
-    Batmale Hall, Rm 453
+    Time: TBD<br>
+    Room: TBD
   </div>
 </div>
 <!-- End meetingtimes.php -->
