@@ -11,21 +11,41 @@ Git Involved
 
 Check the issues page. We have tagged various issues as 'beginner-friendly' to encourage beginners coders to contribute!
 
+This website lives at [ccsf.edu/coders](ccsf.edu/coders)
+
 You can always ask for help on our Google Group, [located here.](https://groups.google.com/forum/#!forum/ccsfcoders).
+
+Local developing of / Playing with the website
+===============
+
+This website uses PHP. A developer may find that if you open the `index.html` file in your browser by dragging and dropping, the website 'won't work.' This is because browsers do not know what to do with .php files. Currently, there are two ways to play with the website after cloning the repo to your computer:
+
+### Long way (but interesting, if your into Virtual Machines and/or Vagrant): 
+Follow the instructions on our repo at https://github.com/CCSF-Coders/vagrant-apache-php
+### Short way: 
+In PHP 5.4 and above you may run this in your console to start a simple php webserver:
+
+(Note: You may need to `sudo` to run this command on your machine)
+```bash
+    $ php -S localhost:80
+```
+
+When you are finally ready to submit your changes to this repo, checkout this guide on how to make a [really good pull request](http://railsbridge.github.io/bridge_troll/) (replace bridge_troll with ccsf_coders_website and railsbridge with CCSF-Coders)(Thanks, [RailsBridge!](https://github.com/railsbridge)).
+
+For a video on how to develop this website locally, submit a change and update the real website, [see this video made by Tyler.](https://www.youtube.com/watch?v=kjXa8po8aes)
 
 Understanding the structure of the website
 ===============
 
-Due to a problem with the hills server (where we host the coders club website), we require a index.html file so we do not generate a '500 internal server error.'
+The website starts at `index.html`. When you open that file, however, you should find you are redirected to a `template\index.php`.
 
-Templates (located under /templates/ directory) are php files that are collections of partials. They are what is typically understood to be the web page. If you load ccsf.edu/coders, you will be redirected to ccsf.edu/coders/templates/index.php, and the totality of what you see is considered to be the 'template.' We used PHP's require_once() method to collect multiple partials into one bundle.
+`templates` (located under /templates/ directory) are php files that are collections of `partials`. They are what is typically understood to be the web page. If you load ccsf.edu/coders in your browser, you will be redirected to ccsf.edu/coders/templates/index.php, and the totality of what you see is considered to be the `template.` If you inspect the contents of any `template`.php file, you will see that they are a collection of PHP's require_once() methods to collect multiple `partials` into one file.
 
-Partials (located under /partials/ directory) are files that are some portion of a template. A good example of a partial is the `<head>` section of the coders website is a partial called header.php. The template index.php calls header.php via require_once(), and header.php in turn calls navigation.php as well as loading some scripts and styles. So, a partial is a file that can be made up of smaller partials, as well as including javascript or styles as needed.
+`partials` (located under /partials/ directory) are files that are some portion of a `template`. A good example of a `partial` is the `<head>` section of the coders website is a `partial` called `header.php`. The `template` `index.php` calls `header.php` via require_once(), and `header.php` in turn calls `navigation.php` as well as loading some scripts and styles. So, a `partial` is a file that can be made up of smaller `partials` and/or include arbitrary amounts of other HTML code as needed.
 
 The philosophy is to make it trivial to re-use as many elements that make up our main pages as possible. For example: this structure allows us to have one navigation.php that we can re-use on every single page.
 
-Bootstrap Reboot
-===============
+###Bootstrap Reboot
 
 [Bootstrap](http://getbootstrap.com/) is a CSS and JavaScript library that helps web pages look nice on a variety of platforms (desktop, mobile, etc.). We use it. It is really helpful to familiarize yourself with the Grid system in particular. There are a number of good resources you can use to familiarize yourself with Bootstrap, get googling!
 
@@ -42,22 +62,6 @@ When editing html, you will notice a lot of funny class names attached to variou
 Each one of those class names are reserved by Bootstrap and help align the content (namely the `<h1>` tag) be perfectly centered on the page, no matter how big or small the screen is! If we were to re-organize the classes to be applied to different elements, the code would <b>NOT</b> work as intended.
 
 When creating new content for the website, try and copy an existing partial and template and begin by modifying them. Keep in mind that when you re-organize and delete elements or classes, things make look drastically different then before!
-
-Local developing of the website
-===============
-
-This website uses PHP, as described above. A developer may find that if you open the .html files in your browser by dragging and dropping, the PHP files 'don't work.' This is because we are using PHP as a server side scripting HTML pre-processor, and a developer's browser does not know what to do with the .php files.
-
-But, a developer want to develop the website using PHP is on Hills (CCSF's server). What do?
-
-###Long way (but interesting, if your into Virtual Machines and/or Vagrant): 
-Follow the instructions on our repo at https://github.com/CCSF-Coders/vagrant-apache-php
-###Short way: 
-In PHP 5.4 and above you may run this in your console to start a simple php webserver:
-
-    $ php -S localhost:80
-
-Thanks, and find out more, to this StackOverflow post: http://stackoverflow.com/a/4302028/3494646
 
 Testing & Continuous Integration
 ===============
