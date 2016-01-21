@@ -11,7 +11,9 @@
         <a href="lightningtalks.php" id='nav-lightningtalks'>Lightning Talks</a>
         <!-- Blog was never finished by William, so Tyler took it off the navigation bar. -->
         <!-- <a href="blog.php" id='nav-blog'>Blog</a> -->
-        <a href="https://www.nixcode.us/irc" id='nav-irc' target="_blank">IRC</a>
+        <!-- IRC information has changed and navigation removed by Alan K. Martinez -->
+        <!-- IRC information page coming soon...  -->
+        <!-- <a href="https://www.nixcode.us/irc" id='nav-irc' target="_blank">IRC</a> -->
       </nav>
     </div>
   </div>
