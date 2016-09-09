@@ -126,3 +126,9 @@ nav a:active {
   padding: 12px;
   font-size: 14px;
 }
+
+.row.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
