@@ -1,5 +1,5 @@
 /* Contact styling */
-#contact .titles p{
+#contact .titles p {
   background-color: #00FF00;
   color: black;
 }
@@ -10,3 +10,17 @@
     margin-left: -100px;
   }
 }
+
+/* iframe fix */
+#events-calendar {
+  width: 100%;
+  height: 100vh;
+  border: none;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+

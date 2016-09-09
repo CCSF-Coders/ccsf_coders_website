@@ -3,7 +3,9 @@
   <div class="row">
     <div class="col-lg-12 text-center">
       <nav>
-        <a href="index.php" id='nav-home'>Home</a>
+        <!-- index.php# pager used so if we're already on index.php, we don't
+        refresh the page for no reason -->
+        <a href="index.php#" id='nav-home'>Home</a>
         <a href="index.php#events" id='nav-events'>Events</a>
         <a href="index.php#contact" id='nav-contact'>Contact</a>
         <a href="history.php" id='nav-history'>History</a>

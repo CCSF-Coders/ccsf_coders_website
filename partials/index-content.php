@@ -1,5 +1,5 @@
 <!-- Begin index-content.php -->
-<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
+<link rel="stylesheet" type="text/css" href="/styles/index-style.css">
 
 <!-- Welcome text -->
 <div class="container">
@@ -39,7 +39,7 @@
       Check back here when the semester starts for our calendar.
       </p>
 
-      <iframe id='events-calendar' src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" style="border: 0" width="640" height="480" frameborder="0" scrolling="no"></iframe>
+      <iframe id='events-calendar' src="https://www.google.com/calendar/embed?src=coders%40mail.ccsf.edu&ctz=America/Los_Angeles" frameborder="0" scrolling="no"></iframe>
 
     </div>
   </div>
