@@ -2,7 +2,7 @@
 <div class="info-wrapper" id="meetingtimes">
   <h1>Meeting Times</h1>
   <div class="info" id="meetingrooms">
-    Wednesday, 4PM - 6PM<br>
+    TBD<br>
     Batmale Hall, Rm 453
   </div>
 </div>
