@@ -1,4 +1,7 @@
 
+.container.intro h1 {
+  margin-top: 60px;
+}
 @media screen and (max-width: 768px) {
   .info-wrapper {
     position: relative;
@@ -11,4 +14,5 @@
     margin-top: 20px;
   }
 }
+
 
