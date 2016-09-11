@@ -1,7 +1,7 @@
 <!-- Begin lightningtalks-content.php -->
 <link rel="stylesheet" type="text/css" href="/styles/codingchallenges-style.css">
 
-<div class="container">
+<div class="container intro">
   <div class="row">
     <div class="col-lg-12 text-center">
       <h1>Lightning Talk?</h1>

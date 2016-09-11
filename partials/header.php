@@ -13,18 +13,23 @@
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono:400' rel='stylesheet' type='text/css'>
     <!-- This is the stylesheet we want to apply everywhere. -->
     <link href='/styles/header-style.css' rel='stylesheet' type='text/css'>
+
+    <link href='/styles/quicklinks.css' rel='stylesheet' type='text/css'>
+    <link href='/styles/meetingtimes.css' rel='stylesheet' type='text/css'>
   <!-- Styles end -->
 
   <!-- Scripts are found in the footer.php partial -->
 
   <?php 
 
+    // php needs relative path
     $templateDirectory = '../partials/';
 
-    require_once($templateDirectory.'logo.php');
-    require_once($templateDirectory.'nav.php');
-    require_once($templateDirectory.'quicklinks.php');
-    require_once($templateDirectory.'meetingtimes.php');
+    // Disable the logo for now until we decide on a different one
+    //require_once($templateDirectory.'logo.php');
+    require_once($templateDirectory . 'nav.php');
+    //require_once($templateDirectory . 'quicklinks.php');
+    require_once($templateDirectory . 'meetingtimes.php');
 
   ?>
 
