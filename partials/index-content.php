@@ -51,37 +51,39 @@
   <!-- Individuals contact -->
   <div class="row contacts">
     <h1 class='text-center'>Get In Touch</h1>
-    <table class='table'>
-      <thead>
-        <tr>
-          <th>Position</th>
-          <th>Name</th>
-          <th>Email</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>President</td>
-          <td>Ryan Lim</td>
-          <td><a href='mailto:coders%40mail.ccsf.edu'>coders@mail.ccsf.edu</a></td>
-        </tr>
-        <tr>
-          <td>Advisor</td>
-          <td>Craig Persiko</td>
-          <td><a href='mailto:cpersiko@mail.ccsf.edu'>cpersiko@mail.ccsf.edu</a></td>
-        </tr>
-        <tr>
-          <td>Treasurer</td>
-          <td>Vadzim Matsiushonak</td>
-          <td>TBA</td>
-        </tr>
-        <tr>
-          <td>ICC Rep</td>
-          <td>Jan Yu</td>
-          <td>TBA</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class='table-responsive'>
+      <table class='table'>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>President</td>
+            <td>Ryan Lim</td>
+            <td><a href='mailto:coders%40mail.ccsf.edu'>coders@mail.ccsf.edu</a></td>
+          </tr>
+          <tr>
+            <td>Advisor</td>
+            <td>Craig Persiko</td>
+            <td><a href='mailto:cpersiko@mail.ccsf.edu'>cpersiko@mail.ccsf.edu</a></td>
+          </tr>
+          <tr>
+            <td>Treasurer</td>
+            <td>Vadzim Matsiushonak</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>ICC Rep</td>
+            <td>Jan Yu</td>
+            <td>TBA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <div class="row">
     <div class="col-xs-12 text-center">
