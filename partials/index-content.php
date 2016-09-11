@@ -47,7 +47,7 @@
 <!-- End calendar and events section -->
 
 <!-- Contact section -->
-<div class="container">
+<div class="container" id='contact'>
   <!-- Individuals contact -->
   <div class="row contacts">
     <h1 class='text-center'>Get In Touch</h1>
