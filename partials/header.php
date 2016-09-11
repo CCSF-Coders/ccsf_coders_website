@@ -28,7 +28,7 @@
     // Disable the logo for now until we decide on a different one
     //require_once($templateDirectory.'logo.php');
     require_once($templateDirectory . 'nav.php');
-    //require_once($templateDirectory . 'quicklinks.php');
+    require_once($templateDirectory . 'quicklinks.php');
     require_once($templateDirectory . 'meetingtimes.php');
 
   ?>
