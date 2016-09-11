@@ -1,5 +1,5 @@
 <!-- Begin index-content.php -->
-<link rel="stylesheet" type="text/css" href="/styles/index-style.css">
+<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
 
 <!-- Welcome text -->
 <div class="container intro">

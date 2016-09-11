@@ -1,5 +1,5 @@
 <!-- Begin codingchallengescontent.php -->
-<link rel="stylesheet" type="text/css" href="/styles/codingchallenges-style.css">
+<link rel="stylesheet" type="text/css" href="../styles/codingchallenges-style.css">
 
 <div class="container intro">
   <div class="row">
