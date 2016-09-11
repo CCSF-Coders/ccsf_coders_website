@@ -23,19 +23,21 @@
       <h1>View them on our YouTube channel</h1>
     </div>
 
-    <div class="row">
-      <!-- lightning talk card starts here -->
-      <div class="col-lg-8 col-lg-offset-2 hidden-xs card-container">
-        <div class="card-content text-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyGLemjnH3ukTGW8TYCzdu7jQe0U-wEKi" frameborder="0" allowfullscreen></iframe>
+    <div class='container'>
+      <div class="row">
+        <!-- lightning talk card starts here -->
+        <div class="col-lg-8 col-lg-offset-2 hidden-xs card-container">
+          <div class="card-content text-center">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyGLemjnH3ukTGW8TYCzdu7jQe0U-wEKi" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-8 col-xs-offset-2 visible-xs card-container">
-        <div class="card-content text-center">
-        <a href="https://www.youtube.com/playlist?list=PLyGLemjnH3ukTGW8TYCzdu7jQe0U-wEKi">Link to our YouTube Lightning Talk play list</a>
+        <div class="col-xs-8 col-xs-offset-2 visible-xs card-container">
+          <div class="card-content text-center">
+          <a href="https://www.youtube.com/playlist?list=PLyGLemjnH3ukTGW8TYCzdu7jQe0U-wEKi">Link to our YouTube Lightning Talk play list</a>
+          </div>
         </div>
+        <!-- lightning talk card ends here -->
       </div>
-      <!-- lightning talk card ends here -->
     </div>
   </div>
 </div>
