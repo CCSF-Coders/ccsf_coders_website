@@ -64,9 +64,10 @@ a:visited { /* visited link */
     color: #fff;
 }
 
+/* Bunch of bootstrap element customization */
 .navbar-inverse .active,
 .navbar-inverse a.navbar-brand:hover,
-.navbar-inverse .navbar-nav>li>a:hover { /* mouse over link */
+.navbar-inverse .navbar-nav>li>a:hover {
     color: #00FF00;
 }
 
@@ -91,10 +92,17 @@ a:visited { /* visited link */
   bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    border-bottom: 1px solid #101010;
+  }
+}
+
 .row.contacts {
   padding-left: 10%;
   padding-right: 10%;
 }
+/* End bootstrap customization */
 
 a:active { /* selected link */
     color: #00FF00;
