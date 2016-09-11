@@ -1,5 +1,5 @@
 <!-- Begin quicklinks.php -->
-<link rel="stylesheet" type="text/css" href="/styles/quicklinks-style.css">
+<link rel="stylesheet" type="text/css" href="../styles/quicklinks-style.css">
 
 <div class="quick-links">
   <a href="https://github.com/CCSF-Coders" target="_blank" id="social-github"><i class="fa fa-github-square"></i></a>

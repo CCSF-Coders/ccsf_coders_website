@@ -1,8 +1,8 @@
 <!-- Begin index-content.php -->
-<link rel="stylesheet" type="text/css" href="/styles/index-style.css">
+<link rel="stylesheet" type="text/css" href="../styles/index-style.css">
 
 <!-- Welcome text -->
-<div class="container">
+<div class="container intro">
   <div class="row">
     <div class="col-lg-12 text-center">
       <h1>Welcome</h1>
@@ -47,64 +47,42 @@
 <!-- End calendar and events section -->
 
 <!-- Contact section -->
-<div class="container">
+<div class="container" id='contact'>
   <!-- Individuals contact -->
-  <div class="row">
-    <div class="col-xs-9 text-center" id="contact">
-
-      <h1>Get In Touch</h1>
-      <!-- Contact headings -->
-      <div class="row titles">
-        <div class="col-xs-3 col-xs-offset-3"><p>Name</p></div>
-        <div class="col-xs-3"><p>Title</p></div>
-        <div class="col-xs-3"><p>Link</p></div>
-      </div>
-      <!-- Contact 1 -->
-      <div class="row" id="contacts-president">
-        <div class="col-xs-3 col-xs-offset-3"><p>Ryan Lim</p></div>
-        <div class="col-xs-3"><p>President</p></div>
-        <div class="col-xs-3" id="contacts-codersemail"><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></div>
-      </div>
-      <!-- Contact 2 -->
-      <div class="row" id="contacts-advisor">
-        <div class="col-xs-3 col-xs-offset-3"><p>Craig Persiko</p></div>
-        <div class="col-xs-3"><p>Advisor</p></div>
-        <div class="col-xs-3"><p>TBD</p></div>
-      </div>
-      <!-- Contact 3 -->
-      <div class="row" id="contacts-treasurer">
-        <div class="col-xs-3 col-xs-offset-3"><p>Vadzim Matsiushonak</p></div>
-        <div class="col-xs-3"><p>Treasurer</p></div>
-        <div class="col-xs-3"><p>TBD</p></div>
-      </div>
-      <!-- Contact 4 -->
-      <div class="row">
-        <div class="col-xs-3 col-xs-offset-3"><p>Jan Yu</p></div>
-        <div class="col-xs-3"><p>ICC Rep</p></div>
-        <div class="col-xs-3"><p>TBD</p></div>
-=======
-        <div class="col-xs-2 col-xs-offset-3"><p>Dustyn Buchanan</p></div>
-        <div class="col-xs-2"><p>President</p></div>
-        <div class="col-xs-2" id="contacts-codersemail"><a href="mailto:coders%40mail.ccsf.edu">coders@mail.ccsf.edu</a></div>
-      </div>
-      <!-- Contact 2 -->
-      <div class="row" id="contacts-advisor">
-        <div class="col-xs-2 col-xs-offset-3"><p>Craig Persiko</p></div>
-        <div class="col-xs-2"><p>Advisor</p></div>
-        <div class="col-xs-2"><p>TBD</p></div>
-      </div>
-      <!-- Contact 3 -->
-      <div class="row" id="contacts-treasurer">
-        <div class="col-xs-2 col-xs-offset-3"><p>Johnson Mei</p></div>
-        <div class="col-xs-2"><p>Treasurer</p></div>
-        <div class="col-xs-2"><p>TBD</p></div>
-      </div>
-      <!-- Contact 4 -->
-      <div class="row">
-        <div class="col-xs-2 col-xs-offset-3"><p>Terrance Yang</p></div>
-        <div class="col-xs-2"><p>ICC Rep</p></div>
-        <div class="col-xs-2"><p>TBD</p></div>
-      </div>
+  <div class="row contacts">
+    <h1 class='text-center'>Get In Touch</h1>
+    <div class='table-responsive'>
+      <table class='table'>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>President</td>
+            <td>Ryan Lim</td>
+            <td><a href='mailto:coders%40mail.ccsf.edu'>coders@mail.ccsf.edu</a></td>
+          </tr>
+          <tr>
+            <td>Advisor</td>
+            <td>Craig Persiko</td>
+            <td><a href='mailto:cpersiko@mail.ccsf.edu'>cpersiko@mail.ccsf.edu</a></td>
+          </tr>
+          <tr>
+            <td>Treasurer</td>
+            <td>Vadzim Matsiushonak</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>ICC Rep</td>
+            <td>Jan Yu</td>
+            <td>TBA</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
   <div class="row">

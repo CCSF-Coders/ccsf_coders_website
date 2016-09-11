@@ -1,5 +1,5 @@
 <!-- Begin historycontent.php -->
-<div class="container">
+<div class="container intro">
   <div class="row">
     <div class="col-lg-12 text-center">
       <h1>Our History</h1>
