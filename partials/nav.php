@@ -22,6 +22,7 @@
       <li><a href='history.php'>History</a></li>
       <li><a href='codingchallenges.php'>Challenges</a></li>
       <li><a href='lightningtalks.php'>Talks</a></li>
+      <li><a href='https://github.com/CCSF-Coders/club-how-to/wiki'>Club How To</a></li>
     </ul>
   </div>
   <!-- index.php# pager used so if we're already on index.php, we don't
