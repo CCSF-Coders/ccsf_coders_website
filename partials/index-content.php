@@ -64,7 +64,7 @@
           <tr>
             <td>President</td>
             <td>Ryan Lim</td>
-            <td><a href='mailto:coders%40mail.ccsf.edu'>coders@mail.ccsf.edu</a></td>
+            <td><a href='mailto:coders@mail.ccsf.edu'>coders@mail.ccsf.edu</a></td>
           </tr>
           <tr>
             <td>Advisor</td>
@@ -73,13 +73,13 @@
           </tr>
           <tr>
             <td>Treasurer</td>
-            <td>Vadzim Matsiushonak</td>
-            <td>TBA</td>
+            <td>Bakulia Kurmant</td>
+            <td></td>
           </tr>
           <tr>
             <td>ICC Rep</td>
-            <td>Jan Yu</td>
-            <td>TBA</td>
+            <td>Jack Cole</td>
+            <td><a href='mailto:jcole@mail.ccsf.edu'>jcole@mail.ccsf.edu</a></td>
           </tr>
         </tbody>
       </table>
