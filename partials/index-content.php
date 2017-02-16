@@ -6,24 +6,22 @@
   <div class="row">
     <div class="col-lg-12 text-center">
       <h1>Welcome</h1>
-      <p>
-      You've found the door to the furthest reaches of human existence.
+      <p>You've found the door to the furthest reaches of human existence.</p>
 
-      Beyond which there is even more beyondness. We are the coders of CCSF.
+      <p>Beyond which there is even more beyondness. We are the coders of CCSF.
       If you are interested in technology, coding, learning, advice or homework help,
-      coders is the place for you!
+      coders is the place for you!</p>
 
-      If not CCSF Coders club might be the place for you anyway. For example 
-      do you like the internet? DO you want to build more internet? WE CAN HELP!
+      <p>If not CCSF Coders club might be the place for you anyway. For example 
+      do you like the internet? DO you want to build more internet? WE CAN HELP!</p>
 
-      CCSF coders is a group of students of varying degrees of skill but all with 
+      <p>CCSF coders is a group of students of varying degrees of skill but all with 
       an interest in computer science who meet up every week to work on project, 
-      discuss computer science, and complain about their classes.
+      discuss computer science, and complain about their classes.</p>
 
-      To join literally all you have to do is show up to <a href="#events">our bi-weekly meetings</a>, 
+      <p>To join literally all you have to do is show up to <a href="#events">our weekly meetings</a>, 
       we dislike red tape, and hierarchical structures. At coders club we
-      actively attempt to include and provide safe space for women, POC, and LGBT community members.
-      </p>
+      actively attempt to include and provide safe space for women, POC, and LGBT community members.</p>
     </div>
   </div>
 </div>
