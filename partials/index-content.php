@@ -69,7 +69,7 @@
           <tr>
             <td>Advisor</td>
             <td>Craig Persiko</td>
-            <td><a href='mailto:cpersiko@mail.ccsf.edu'>cpersiko@mail.ccsf.edu</a></td>
+            <td><a href='mailto:craig.persiko@mail.ccsf.edu'>craig.persiko@mail.ccsf.edu</a></td>
           </tr>
           <tr>
             <td>Treasurer</td>
