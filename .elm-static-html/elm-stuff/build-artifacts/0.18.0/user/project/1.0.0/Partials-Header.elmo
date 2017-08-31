@@ -1,0 +1,16 @@
+var _user$project$Partials_Header$view = A2(
+	_elm_lang$html$Html$div,
+	{ctor: '[]'},
+	{
+		ctor: '::',
+		_0: _user$project$Partials_Nav$view,
+		_1: {
+			ctor: '::',
+			_0: _user$project$Partials_Quicklinks$view,
+			_1: {
+				ctor: '::',
+				_0: _user$project$Partials_MeetingTimes$view,
+				_1: {ctor: '[]'}
+			}
+		}
+	});
