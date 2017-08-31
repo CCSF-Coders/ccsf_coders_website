@@ -9,3 +9,4 @@ events/
 
 
 .idea/workspace.xml
+node_modules/

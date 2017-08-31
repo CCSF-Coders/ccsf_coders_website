@@ -1,0 +1,23 @@
+{
+  "name": "ccsf_coders_website",
+  "version": "1.0.0",
+  "description": "CCSF Coders Club Website [![Build Status](https://travis-ci.org/CCSF-Coders/ccsf_coders_website.svg)](https://travis-ci.org/CCSF-Coders/ccsf_coders_website) ================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliaslfox/ccsf_coders_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliaslfox/ccsf_coders_website/issues"
+  },
+  "homepage": "https://github.com/eliaslfox/ccsf_coders_website#readme"
+}
