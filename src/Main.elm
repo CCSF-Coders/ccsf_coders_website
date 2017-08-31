@@ -2,7 +2,6 @@ module Main exposing (main)
 
 import Html exposing (Html, text, div, h1, h2, p, iframe, i, a)
 import Html.Attributes exposing (href, attribute, class, id)
-import Html.Events exposing (onClick)
 import Bootstrap.CDN as CDN
 import Bootstrap.Grid as Grid
 import Bootstrap.Grid.Row as Row
@@ -11,6 +10,8 @@ import Bootstrap.Navbar as Navbar
 import Bootstrap.Card as Card
 import Bootstrap.Table as Table
 import Scroll exposing (scroll)
+import Types exposing (..)
+import Navbar exposing (navbar)
 
 
 main : Program Never Model Msg
@@ -21,15 +22,6 @@ main =
         , update = update
         , subscriptions = subscriptions
         }
-
-
-type alias Model =
-    { navbarState : Navbar.State }
-
-
-type Msg
-    = NavbarMsg Navbar.State
-    | Scroll String
 
 
 init : ( Model, Cmd Msg )
@@ -73,21 +65,6 @@ view model =
         , Grid.row [ Row.centerMd ]
             [ Grid.col [ Col.md8 ] [ groupLink ] ]
         ]
-
-
-navbar : Navbar.State -> Html Msg
-navbar state =
-    Navbar.config NavbarMsg
-        |> Navbar.withAnimation
-        |> Navbar.brand [ href "#" ] [ text "Brand" ]
-        |> Navbar.items
-            [ Navbar.itemLink [ onClick <| Scroll "calender" ] [ text "Events" ]
-            , Navbar.itemLink [ onClick <| Scroll "contact" ] [ text "Contact" ]
-            , Navbar.itemLink [ href "#" ] [ text "History" ]
-            , Navbar.itemLink [ href "#" ] [ text "Challenges" ]
-            , Navbar.itemLink [ href "Talks" ] [ text "Club How To" ]
-            ]
-        |> Navbar.view state
 
 
 meetingTimes : Html Msg
