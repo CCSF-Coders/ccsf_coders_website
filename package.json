@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "elm make src/Main.elm --output index.html",
+    "dev": "elm reactor"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/eliaslfox/ccsf_coders_website/issues"
   },
-  "homepage": "https://github.com/eliaslfox/ccsf_coders_website#readme"
+  "homepage": "https://github.com/eliaslfox/ccsf_coders_website#readme",
+  "dependencies": {
+    "elm": "^0.18.0"
+  }
 }

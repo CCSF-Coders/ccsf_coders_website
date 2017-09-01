@@ -15,8 +15,9 @@ navbar state =
         |> Navbar.items
             [ Navbar.itemLink [ onClick <| Scroll "calender" ] [ text "Events" ]
             , Navbar.itemLink [ onClick <| Scroll "contact" ] [ text "Contact" ]
-            , Navbar.itemLink [ href "#" ] [ text "History" ]
-            , Navbar.itemLink [ href "#" ] [ text "Challenges" ]
-            , Navbar.itemLink [ href "Talks" ] [ text "Club How To" ]
+            , Navbar.itemLink
+                [ href "https://github.com/CCSF-Coders/club-how-to/wiki"
+                ]
+                [ text "Club How To" ]
             ]
         |> Navbar.view state

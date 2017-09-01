@@ -1,13 +1,5 @@
-.DS_Store
-*~
-.*.swp
-*.swp
-.*.pyc
-*.pyc
-event
-events/
-
-
-.idea/workspace.xml
 node_modules/
 elm-stuff/
+*.swp
+.DS_Store
+index.html

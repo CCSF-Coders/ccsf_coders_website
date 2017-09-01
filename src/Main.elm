@@ -69,7 +69,7 @@ view model =
 
 meetingTimes : Html Msg
 meetingTimes =
-    Card.config []
+    Card.config [ Card.attrs [ id "meeting-times" ] ]
         |> Card.block []
             [ Card.titleH4 [] [ text "Spring Meeting Times" ]
             , Card.text [] [ text "Wendsdays, 4-6 PM Batmale Hall, Rm 451" ]
@@ -114,6 +114,15 @@ socialIcon name link =
     a [ href link, class "social-icon" ] [ icon name ]
 
 
+contactItem : String -> String -> String -> Table.Row Msg
+contactItem position name email =
+    Table.tr []
+        [ Table.td [] [ text position ]
+        , Table.td [] [ text name ]
+        , Table.td [] [ text email ]
+        ]
+
+
 contact : Html Msg
 contact =
     div [ id "contact" ]
@@ -137,26 +146,10 @@ contact =
                 , Table.th [] [ text "Email" ]
                 ]
             , Table.tbody []
-                [ Table.tr []
-                    [ Table.td [] [ text "President" ]
-                    , Table.td [] [ text "Ryan Lim" ]
-                    , Table.td [] [ text "coders@mail.ccsf.edu" ]
-                    ]
-                , Table.tr []
-                    [ Table.td [] [ text "Advisor" ]
-                    , Table.td [] [ text "Craig Persiko" ]
-                    , Table.td [] [ text "craig.persiko@mail.ccsf.edu" ]
-                    ]
-                , Table.tr []
-                    [ Table.td [] [ text "Treasurer" ]
-                    , Table.td [] [ text "Bakulia Kurmant" ]
-                    , Table.td [] []
-                    ]
-                , Table.tr []
-                    [ Table.td [] [ text "ICC Rep" ]
-                    , Table.td [] [ text "Jack Cole" ]
-                    , Table.td [] [ text "jcole@gmail.com" ]
-                    ]
+                [ contactItem "President" "Michael Leung" ""
+                , contactItem "Advisor" "Craig Persiko" "craig.persiko@mail.ccsf.edu"
+                , contactItem "Treasurer" "Elias Lawson-Fox" "eliaslfox@gmail.com"
+                , contactItem "ICC Rep" "Betty Zhang" "bzhang6@mail.ccsf.edu"
                 ]
             )
         ]
