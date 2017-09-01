@@ -146,7 +146,7 @@ contact =
                 , Table.th [] [ text "Email" ]
                 ]
             , Table.tbody []
-                [ contactItem "President" "Michael Leung" ""
+                [ contactItem "President" "Michael Leung" "mleung25@mail.ccsf.edu"
                 , contactItem "Advisor" "Craig Persiko" "craig.persiko@mail.ccsf.edu"
                 , contactItem "Treasurer" "Elias Lawson-Fox" "eliaslfox@gmail.com"
                 , contactItem "ICC Rep" "Betty Zhang" "bzhang6@mail.ccsf.edu"

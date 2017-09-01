@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "elm make src/Main.elm --output index.html",
-    "dev": "elm reactor"
+      "build": "elm make src/Main.elm --output main.js",
+      "dev": "elm reactor",
+      "postinstall": "elm package install"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/eliaslfox/ccsf_coders_website/issues"
   },
-  "homepage": "https://github.com/eliaslfox/ccsf_coders_website#readme",
-  "dependencies": {
-    "elm": "^0.18.0"
-  }
+  "homepage": "https://github.com/eliaslfox/ccsf_coders_website#readme"
 }

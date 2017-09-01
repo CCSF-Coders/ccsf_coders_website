@@ -2,4 +2,4 @@ node_modules/
 elm-stuff/
 *.swp
 .DS_Store
-index.html
+main.js
