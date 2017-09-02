@@ -1,4 +1,4 @@
-module Navbar exposing (navbar)
+module Components.Navbar exposing (navbar)
 
 import Bootstrap.Navbar as Navbar
 import Html exposing (Html, text)

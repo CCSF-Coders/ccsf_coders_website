@@ -1,4 +1,4 @@
-port module Scroll exposing (..)
+port module Ports exposing (..)
 
 
 port scroll : String -> Cmd msg
