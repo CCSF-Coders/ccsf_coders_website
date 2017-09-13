@@ -1,0 +1,14 @@
+#calender {
+  width: 100%;
+  height: 100vh;
+}
+
+.social-icon {
+  color: black;
+  font-size: 32px;
+  margin-right: 5px;
+}
+
+#meeting-times {
+  margin-top: 20px;
+}

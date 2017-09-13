@@ -1,4 +1,0 @@
-
-function collapse(event) {
-}
-
